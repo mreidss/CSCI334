@@ -1,9 +1,6 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-#include<123213>
-
-
 
 vector <int> BinaryK(int k);
 int ModularExpo(int a, vector <int> & k, int n);
@@ -27,7 +24,7 @@ int main()
     vector<int> B = BinaryK(k);
     int result = ModularExpo(a, B, n);
     cout << "a ^ k mod n == " << result << endl;
-
+    cout << "Hello Human :D" << endl;
     return 0;
 }
 
