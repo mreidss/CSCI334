@@ -9,7 +9,6 @@ int main()
 {
     int a = 0;
     int k = 0;
-    int n = 0;
 
     cout << "a^k % n" << endl;
     cout << "a = ";
