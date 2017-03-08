@@ -1,6 +1,9 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+#include<123213>
+
+
 
 vector <int> BinaryK(int k);
 int ModularExpo(int a, vector <int> & k, int n);
