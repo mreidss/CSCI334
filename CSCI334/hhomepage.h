@@ -22,6 +22,8 @@ private slots:
 
     void on_Vissue_clicked();
 
+    void on_commitButton_clicked();
+
 private:
     Ui::Hhomepage *ui;
 };

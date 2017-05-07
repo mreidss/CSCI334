@@ -4,9 +4,6 @@
 #include<iostream>
 #include"log_in.h"
 
-
-
-
 Register::Register(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::Register)

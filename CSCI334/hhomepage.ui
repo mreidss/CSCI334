@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>1</x>
@@ -28,6 +28,20 @@
     </item>
     <item>
      <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="commitButton">
+        <property name="text">
+         <string>Search for commits</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="issuebButton">
+        <property name="text">
+         <string>Search for JIRA Issues</string>
+        </property>
+       </widget>
+      </item>
       <item>
        <widget class="QPushButton" name="Vissue">
         <property name="text">

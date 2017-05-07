@@ -18,18 +18,21 @@ SOURCES += main.cpp\
     hhomepage.cpp \
     search.cpp \
     viewissue.cpp \
-    showcommit.cpp
+    showcommit.cpp \
+    searchcommit.cpp
 
 HEADERS  += log_in.h \
     register.h \
     hhomepage.h \
     search.h \
     viewissue.h \
-    showcommit.h
+    showcommit.h \
+    searchcommit.h
 
 FORMS    += log_in.ui \
     register.ui \
     hhomepage.ui \
     search.ui \
     viewissue.ui \
-    showcommit.ui
+    showcommit.ui \
+    searchcommit.ui
