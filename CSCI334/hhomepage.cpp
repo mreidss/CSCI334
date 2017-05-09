@@ -41,11 +41,19 @@ void Hhomepage::on_Vissue_clicked()
 void Hhomepage::on_commitButton_clicked()
 {
     searchCommit *s = new searchCommit(this);
+    this->hide();
     s->show();
+}
+
+void Hhomepage::on_issuebButton_clicked()
+{
+
 }
 
 void Hhomepage::addCommitsToList(QJsonDocument Allcommits)
 {
+    this->show();
+
     // Json array of the whole json doc
     QJsonArray JsonArray = Allcommits.array();
     QJsonValue value;
@@ -66,6 +74,8 @@ void Hhomepage::addCommitsToList(QJsonDocument Allcommits)
         message[i] = master["commit"].toObject()["message"].toString();
         name[i] = master["commit"].toObject()["author"].toObject()["name"].toString();
         dateCommited[i] = master["commit"].toObject()["author"].toObject()["date"].toString();
+
+        //ui->code = new QListWidget();
 
         ui->code->addItem("Name: " + name[i]);
         ui->code->addItem("Message: " + message[i]);
