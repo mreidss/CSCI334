@@ -2,6 +2,7 @@
 #define SEARCHCOMMIT_H
 
 #include <QDialog>
+#include <QJsonDocument>
 
 namespace Ui {
 class searchCommit;
@@ -18,6 +19,7 @@ public:
 private slots:
     void on_buttonBox_accepted();
     QString splitWebsiteGit(QString);
+    QJsonDocument loadJson(QString fileName);
 
 private:
     Ui::searchCommit *ui;

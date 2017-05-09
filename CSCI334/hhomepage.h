@@ -14,6 +14,7 @@ class Hhomepage : public QDialog
 public:
     explicit Hhomepage(QWidget *parent = 0);
     ~Hhomepage();
+    void addCommitsToList(QJsonDocument commits);
 
 private slots:
     void on_Log_out_clicked();

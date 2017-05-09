@@ -20,8 +20,8 @@ Hhomepage::~Hhomepage()
 void Hhomepage::on_Log_out_clicked()
 {
     Log_in * homepage = new Log_in(this);
-        this -> hide();
-        homepage -> show();
+    this -> hide();
+    homepage -> show();
 }
 
 void Hhomepage::on_search_clicked()
@@ -42,26 +42,42 @@ void Hhomepage::on_commitButton_clicked()
 {
     searchCommit *s = new searchCommit(this);
     s->show();
+}
 
-    /*
-        QString link = this->ui->gitLink->text();
+void Hhomepage::addCommitsToList(QJsonDocument Allcommits)
+{
+    // Json array of the whole json doc
+    QJsonArray JsonArray = Allcommits.array();
+    QJsonValue value;
 
-        QString curl = "curl https://api.github.com/repos/apache/cordova-js/commits";
+    // Holds commit information
+    QString html_url[30];
+    QString message[30];
+    QString name[30];
+    QString dateCommited[30];
 
-        QProcess process;
-        process.start(curl);
-        process.waitForFinished(-1); // will wait forever until finished
+    for(int i = 0; i < JsonArray.size(); i++)
+    {
+        value = JsonArray.first();
+        QJsonObject master = value.toObject();
 
+        // Retrieves info of 1 commit
+        html_url[i] = master["html_url"].toString();
+        message[i] = master["commit"].toObject()["message"].toString();
+        name[i] = master["commit"].toObject()["author"].toObject()["name"].toString();
+        dateCommited[i] = master["commit"].toObject()["author"].toObject()["date"].toString();
 
-        QString temp = process.readAllStandardOutput();
+        ui->code->addItem("Name: " + name[i]);
+        ui->code->addItem("Message: " + message[i]);
+        ui->code->addItem("Date Commited: " + dateCommited[i]);
+        ui->code->addItem("Url: " + html_url[i]);
+        ui->code->addItem("--------------");
 
-        // Opens a file and saves contents of command response in the file
-        QString filename = "commits.txt";
-        QFile file(filename);
-        if ( file.open(QIODevice::ReadWrite) )
-        {
-            QTextStream stream( &file );
-            stream << temp << endl;
-        }
-    */
+        qDebug() << "name: " << name[i];
+        qDebug() << "message: " << message[i];
+        qDebug() << "dateCommited: " << dateCommited[i];
+        qDebug() << "html_url: " << html_url[i];
+
+        JsonArray.removeFirst();
+    }
 }
