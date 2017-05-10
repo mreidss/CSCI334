@@ -4,6 +4,7 @@
 #include "search.h"
 #include "viewissue.h"
 #include "searchcommit.h"
+#include "searchjira.h"
 
 Hhomepage::Hhomepage(QWidget *parent) :
     QDialog(parent),
@@ -45,9 +46,55 @@ void Hhomepage::on_commitButton_clicked()
     s->show();
 }
 
+
 void Hhomepage::on_issuebButton_clicked()
 {
+    searchJIRA *j = new searchJIRA(this);
+    this->hide();
+    j->show();
+}
 
+void Hhomepage::addIssuesToList(QJsonDocument Allissues)
+{
+    this->show();
+
+    // Json array of the whole json doc
+    QJsonObject JsonObject = Allissues.object();
+    QJsonValue temp = JsonObject.value("issues");
+    QJsonValue total = JsonObject.value("total");
+    QJsonArray array = temp.toArray();
+    QJsonValue value;
+
+    // Holds commit information
+    QString usrName[30];
+    QString description[30];
+    QString id[30];
+    QString key[30];
+
+    for(int i = 0; i < 30; i++)
+    {
+        value = array.first();
+        QJsonObject master = value.toObject();
+
+        //value = JsonArray.first();
+        usrName[i] = master["fields"].toObject()["creator"].toObject()["displayName"].toString();
+        description[i] = master["fields"].toObject()["description"].toString();
+        id[i] = master["id"].toString();
+        key[i] = master["key"].toString();
+
+        ui->issue->addItem("User Name: " + usrName[i]);
+        ui->issue->addItem("Issue ID: " + id[i]);
+        ui->issue->addItem("Issue key: " + key[i]);
+        ui->issue->addItem("Description: " + description[i]);
+        ui->issue->addItem("--------------------------------------------------------------------------------------------");
+
+        qDebug() << "name: " << usrName[i];
+        qDebug() << "description: " << description[i];
+        qDebug() << "id: " << id[i];
+        qDebug() << "key: " << key[i];
+
+        array.removeFirst();
+    }
 }
 
 void Hhomepage::addCommitsToList(QJsonDocument Allcommits)
@@ -81,7 +128,7 @@ void Hhomepage::addCommitsToList(QJsonDocument Allcommits)
         ui->code->addItem("Message: " + message[i]);
         ui->code->addItem("Date Commited: " + dateCommited[i]);
         ui->code->addItem("Url: " + html_url[i]);
-        ui->code->addItem("--------------");
+        ui->code->addItem("--------------------------------------------------------------------------------------------");
 
         qDebug() << "name: " << name[i];
         qDebug() << "message: " << message[i];

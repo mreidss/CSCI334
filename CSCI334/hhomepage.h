@@ -15,6 +15,7 @@ public:
     explicit Hhomepage(QWidget *parent = 0);
     ~Hhomepage();
     void addCommitsToList(QJsonDocument commits);
+    void addIssuesToList(QJsonDocument issues);
 
 private slots:
     void on_Log_out_clicked();
@@ -24,6 +25,8 @@ private slots:
     void on_Vissue_clicked();
 
     void on_commitButton_clicked();
+
+    void on_issuebButton_clicked();
 
 private:
     Ui::Hhomepage *ui;
