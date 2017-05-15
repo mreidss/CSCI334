@@ -26,13 +26,13 @@ searchJIRA::~searchJIRA()
 
 void searchJIRA::on_buttonBox_accepted()
 {
-    QString projName = this->ui->projName->text();
+   /* QString projName = this->ui->projName->text();
 
     QString curlCommand = getApiJira(projName);
     QString curl = "curl " + curlCommand;
     qDebug() << "curl: " << curl ;
 
-    QString filename = "tempJira.json";
+    QString filename = "Jira.json";
 
     // Runs Curl Command and outputs it into a JSON file
     QProcess process;
@@ -45,7 +45,7 @@ void searchJIRA::on_buttonBox_accepted()
     //QJsonObject jsonObj = jsonDoc.object();
 
     Hhomepage *home = new Hhomepage(this);
-    home->addIssuesToList(jsonDoc);
+    home->addIssuesToList(jsonDoc);*/
 }
 
 // Splits the website into api to retrieve info

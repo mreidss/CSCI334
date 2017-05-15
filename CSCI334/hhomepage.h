@@ -14,7 +14,6 @@ class Hhomepage : public QDialog
 public:
     explicit Hhomepage(QWidget *parent = 0);
     ~Hhomepage();
-    void addCommitsToList(QJsonDocument commits);
     void addIssuesToList(QJsonDocument issues);
 
 private slots:
@@ -27,6 +26,14 @@ private slots:
     void on_commitButton_clicked();
 
     void on_issuebButton_clicked();
+
+    QString splitWebsiteGit(QString);
+    QString getApiJira(QString projName);
+    QJsonDocument loadJson(QString fileName);
+
+    void addCommitsToList(QJsonDocument commits);
+
+
 
 private:
     Ui::Hhomepage *ui;

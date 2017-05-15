@@ -32,7 +32,7 @@ void searchCommit::on_buttonBox_accepted()
     QString curl = "curl " + curlCommand;
     qDebug() << "curl: " << curl ;
 
-    QString filename = "tempJson.json";
+    QString filename = "github.json";
 
     // Runs Curl Command and outputs it into a JSON file
     QProcess process;
@@ -41,12 +41,11 @@ void searchCommit::on_buttonBox_accepted()
     process.waitForFinished(); // will wait forever until finished
     //QString jsonOutput(process.readAllStandardOutput());
 
-
     QJsonDocument jsonDoc = loadJson(filename);
     //QJsonObject jsonObj = jsonDoc.object();
 
-    Hhomepage *home = new Hhomepage(this);
-    home->addCommitsToList(jsonDoc);
+    //Hhomepage *home = new Hhomepage(this);
+    //home->addCommitsToList(jsonDoc);
 }
 
 

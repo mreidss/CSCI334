@@ -1,0 +1,2055 @@
+[
+  {
+    "sha": "2754e5c7faf719f65527fc853afb4243876d7df3",
+    "commit": {
+      "author": {
+        "name": "Stuart Colville",
+        "email": "scolville@mozilla.com",
+        "date": "2017-05-12T13:13:48Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-05-12T13:13:48Z"
+      },
+      "message": "Merge pull request #2367 from wagnerand/node6_repo\n\nRemove orphaned node repo files",
+      "tree": {
+        "sha": "4fffe6e678f1ca63d7a6ea60e96fd3113e5ec11f",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/4fffe6e678f1ca63d7a6ea60e96fd3113e5ec11f"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/2754e5c7faf719f65527fc853afb4243876d7df3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/2754e5c7faf719f65527fc853afb4243876d7df3",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/2754e5c7faf719f65527fc853afb4243876d7df3",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/2754e5c7faf719f65527fc853afb4243876d7df3/comments",
+    "author": {
+      "login": "muffinresearch",
+      "id": 1514,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1514?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muffinresearch",
+      "html_url": "https://github.com/muffinresearch",
+      "followers_url": "https://api.github.com/users/muffinresearch/followers",
+      "following_url": "https://api.github.com/users/muffinresearch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muffinresearch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muffinresearch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muffinresearch/subscriptions",
+      "organizations_url": "https://api.github.com/users/muffinresearch/orgs",
+      "repos_url": "https://api.github.com/users/muffinresearch/repos",
+      "events_url": "https://api.github.com/users/muffinresearch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muffinresearch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7576069c02f0e0a209c5eb1cdaea2632f1890847",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/7576069c02f0e0a209c5eb1cdaea2632f1890847",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/7576069c02f0e0a209c5eb1cdaea2632f1890847"
+      },
+      {
+        "sha": "69028a131730d038780fab6cfc09fc7fd2605c7d",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/69028a131730d038780fab6cfc09fc7fd2605c7d",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/69028a131730d038780fab6cfc09fc7fd2605c7d"
+      }
+    ]
+  },
+  {
+    "sha": "7576069c02f0e0a209c5eb1cdaea2632f1890847",
+    "commit": {
+      "author": {
+        "name": "Stuart Colville",
+        "email": "scolville@mozilla.com",
+        "date": "2017-05-11T19:22:56Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-05-11T19:22:56Z"
+      },
+      "message": "Re-instate summary test and cleanup santization assertions (#2374)",
+      "tree": {
+        "sha": "7a7f2f48728214b04b6150348039aacebfc760dd",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/7a7f2f48728214b04b6150348039aacebfc760dd"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/7576069c02f0e0a209c5eb1cdaea2632f1890847",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/7576069c02f0e0a209c5eb1cdaea2632f1890847",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/7576069c02f0e0a209c5eb1cdaea2632f1890847",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/7576069c02f0e0a209c5eb1cdaea2632f1890847/comments",
+    "author": {
+      "login": "muffinresearch",
+      "id": 1514,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1514?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muffinresearch",
+      "html_url": "https://github.com/muffinresearch",
+      "followers_url": "https://api.github.com/users/muffinresearch/followers",
+      "following_url": "https://api.github.com/users/muffinresearch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muffinresearch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muffinresearch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muffinresearch/subscriptions",
+      "organizations_url": "https://api.github.com/users/muffinresearch/orgs",
+      "repos_url": "https://api.github.com/users/muffinresearch/repos",
+      "events_url": "https://api.github.com/users/muffinresearch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muffinresearch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fd669beb91ea311a8d1b8de97cc946a40189f00b",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/fd669beb91ea311a8d1b8de97cc946a40189f00b",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/fd669beb91ea311a8d1b8de97cc946a40189f00b"
+      }
+    ]
+  },
+  {
+    "sha": "fd669beb91ea311a8d1b8de97cc946a40189f00b",
+    "commit": {
+      "author": {
+        "name": "Kumar McMillan",
+        "email": "kumar.mcmillan@gmail.com",
+        "date": "2017-05-10T20:17:38Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-05-10T20:17:38Z"
+      },
+      "message": "A better URL for checking the deployed version (#2366)",
+      "tree": {
+        "sha": "59705d8faa3b7966bbfab28b9ad240f4643231b3",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/59705d8faa3b7966bbfab28b9ad240f4643231b3"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/fd669beb91ea311a8d1b8de97cc946a40189f00b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/fd669beb91ea311a8d1b8de97cc946a40189f00b",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/fd669beb91ea311a8d1b8de97cc946a40189f00b",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/fd669beb91ea311a8d1b8de97cc946a40189f00b/comments",
+    "author": {
+      "login": "kumar303",
+      "id": 55398,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kumar303",
+      "html_url": "https://github.com/kumar303",
+      "followers_url": "https://api.github.com/users/kumar303/followers",
+      "following_url": "https://api.github.com/users/kumar303/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kumar303/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kumar303/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kumar303/subscriptions",
+      "organizations_url": "https://api.github.com/users/kumar303/orgs",
+      "repos_url": "https://api.github.com/users/kumar303/repos",
+      "events_url": "https://api.github.com/users/kumar303/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kumar303/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5e6d3293f550f435693d76971b3e9b2e2556592b",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/5e6d3293f550f435693d76971b3e9b2e2556592b",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/5e6d3293f550f435693d76971b3e9b2e2556592b"
+      }
+    ]
+  },
+  {
+    "sha": "69028a131730d038780fab6cfc09fc7fd2605c7d",
+    "commit": {
+      "author": {
+        "name": "Andreas Wagner",
+        "email": "mail@andreaswagner.org",
+        "date": "2017-05-10T12:46:25Z"
+      },
+      "committer": {
+        "name": "Andreas Wagner",
+        "email": "mail@andreaswagner.org",
+        "date": "2017-05-10T12:46:25Z"
+      },
+      "message": "Remove orphaned node repo files",
+      "tree": {
+        "sha": "97dd4db5bc4e64ca406a40ca26dc30bf950d0b79",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/97dd4db5bc4e64ca406a40ca26dc30bf950d0b79"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/69028a131730d038780fab6cfc09fc7fd2605c7d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/69028a131730d038780fab6cfc09fc7fd2605c7d",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/69028a131730d038780fab6cfc09fc7fd2605c7d",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/69028a131730d038780fab6cfc09fc7fd2605c7d/comments",
+    "author": {
+      "login": "wagnerand",
+      "id": 873258,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/873258?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wagnerand",
+      "html_url": "https://github.com/wagnerand",
+      "followers_url": "https://api.github.com/users/wagnerand/followers",
+      "following_url": "https://api.github.com/users/wagnerand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wagnerand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wagnerand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wagnerand/subscriptions",
+      "organizations_url": "https://api.github.com/users/wagnerand/orgs",
+      "repos_url": "https://api.github.com/users/wagnerand/repos",
+      "events_url": "https://api.github.com/users/wagnerand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wagnerand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wagnerand",
+      "id": 873258,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/873258?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wagnerand",
+      "html_url": "https://github.com/wagnerand",
+      "followers_url": "https://api.github.com/users/wagnerand/followers",
+      "following_url": "https://api.github.com/users/wagnerand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wagnerand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wagnerand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wagnerand/subscriptions",
+      "organizations_url": "https://api.github.com/users/wagnerand/orgs",
+      "repos_url": "https://api.github.com/users/wagnerand/repos",
+      "events_url": "https://api.github.com/users/wagnerand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wagnerand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5e6d3293f550f435693d76971b3e9b2e2556592b",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/5e6d3293f550f435693d76971b3e9b2e2556592b",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/5e6d3293f550f435693d76971b3e9b2e2556592b"
+      }
+    ]
+  },
+  {
+    "sha": "5e6d3293f550f435693d76971b3e9b2e2556592b",
+    "commit": {
+      "author": {
+        "name": "Kumar McMillan",
+        "email": "kumar.mcmillan@gmail.com",
+        "date": "2017-05-09T19:46:57Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-05-09T19:46:57Z"
+      },
+      "message": "Extract/Merge AMO locales (#2361)",
+      "tree": {
+        "sha": "4c067737dca896598c18b3109c29ca7af8298626",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/4c067737dca896598c18b3109c29ca7af8298626"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/5e6d3293f550f435693d76971b3e9b2e2556592b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/5e6d3293f550f435693d76971b3e9b2e2556592b",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/5e6d3293f550f435693d76971b3e9b2e2556592b",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/5e6d3293f550f435693d76971b3e9b2e2556592b/comments",
+    "author": {
+      "login": "kumar303",
+      "id": 55398,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kumar303",
+      "html_url": "https://github.com/kumar303",
+      "followers_url": "https://api.github.com/users/kumar303/followers",
+      "following_url": "https://api.github.com/users/kumar303/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kumar303/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kumar303/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kumar303/subscriptions",
+      "organizations_url": "https://api.github.com/users/kumar303/orgs",
+      "repos_url": "https://api.github.com/users/kumar303/repos",
+      "events_url": "https://api.github.com/users/kumar303/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kumar303/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cda71563ddba6ce8cfaa20f38caee0c378466adf",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/cda71563ddba6ce8cfaa20f38caee0c378466adf",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/cda71563ddba6ce8cfaa20f38caee0c378466adf"
+      }
+    ]
+  },
+  {
+    "sha": "cda71563ddba6ce8cfaa20f38caee0c378466adf",
+    "commit": {
+      "author": {
+        "name": "Stuart Colville",
+        "email": "scolville@mozilla.com",
+        "date": "2017-05-09T18:37:41Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-05-09T18:37:41Z"
+      },
+      "message": "Upgrade pip for circle (#2365)",
+      "tree": {
+        "sha": "28afec64963e3f4a6f3ea4afe1e5b8d80d8b393f",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/28afec64963e3f4a6f3ea4afe1e5b8d80d8b393f"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/cda71563ddba6ce8cfaa20f38caee0c378466adf",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/cda71563ddba6ce8cfaa20f38caee0c378466adf",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/cda71563ddba6ce8cfaa20f38caee0c378466adf",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/cda71563ddba6ce8cfaa20f38caee0c378466adf/comments",
+    "author": {
+      "login": "muffinresearch",
+      "id": 1514,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1514?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muffinresearch",
+      "html_url": "https://github.com/muffinresearch",
+      "followers_url": "https://api.github.com/users/muffinresearch/followers",
+      "following_url": "https://api.github.com/users/muffinresearch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muffinresearch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muffinresearch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muffinresearch/subscriptions",
+      "organizations_url": "https://api.github.com/users/muffinresearch/orgs",
+      "repos_url": "https://api.github.com/users/muffinresearch/repos",
+      "events_url": "https://api.github.com/users/muffinresearch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muffinresearch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7a47bbd9ceab7bc132b4e0540eb8b4579987b7e5",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/7a47bbd9ceab7bc132b4e0540eb8b4579987b7e5",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/7a47bbd9ceab7bc132b4e0540eb8b4579987b7e5"
+      }
+    ]
+  },
+  {
+    "sha": "7a47bbd9ceab7bc132b4e0540eb8b4579987b7e5",
+    "commit": {
+      "author": {
+        "name": "Kumar McMillan",
+        "email": "kumar.mcmillan@gmail.com",
+        "date": "2017-05-09T15:34:41Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-05-09T15:34:41Z"
+      },
+      "message": "Don't log Redux actions on the server (#2357)",
+      "tree": {
+        "sha": "7d44fc0d5d22570e8807d4ea36b6ed59956dc91b",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/7d44fc0d5d22570e8807d4ea36b6ed59956dc91b"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/7a47bbd9ceab7bc132b4e0540eb8b4579987b7e5",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/7a47bbd9ceab7bc132b4e0540eb8b4579987b7e5",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/7a47bbd9ceab7bc132b4e0540eb8b4579987b7e5",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/7a47bbd9ceab7bc132b4e0540eb8b4579987b7e5/comments",
+    "author": {
+      "login": "kumar303",
+      "id": 55398,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kumar303",
+      "html_url": "https://github.com/kumar303",
+      "followers_url": "https://api.github.com/users/kumar303/followers",
+      "following_url": "https://api.github.com/users/kumar303/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kumar303/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kumar303/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kumar303/subscriptions",
+      "organizations_url": "https://api.github.com/users/kumar303/orgs",
+      "repos_url": "https://api.github.com/users/kumar303/repos",
+      "events_url": "https://api.github.com/users/kumar303/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kumar303/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "338229db9540d596f5c396721c21f8047075186a",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/338229db9540d596f5c396721c21f8047075186a",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/338229db9540d596f5c396721c21f8047075186a"
+      }
+    ]
+  },
+  {
+    "sha": "338229db9540d596f5c396721c21f8047075186a",
+    "commit": {
+      "author": {
+        "name": "stoyan",
+        "email": "stoyan@gmx.com",
+        "date": "2017-05-09T14:31:35Z"
+      },
+      "committer": {
+        "name": "Mozilla Pontoon",
+        "email": "pontoon@mozilla.com",
+        "date": "2017-05-09T14:31:35Z"
+      },
+      "message": "Pontoon: Update Bulgarian (bg) localization of AMO Frontend\n\nLocalization authors:\n- :stoyan <stoyan@gmx.com>",
+      "tree": {
+        "sha": "5184fd7cf15e0c6d90079ca4a3dc84a518de2de9",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/5184fd7cf15e0c6d90079ca4a3dc84a518de2de9"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/338229db9540d596f5c396721c21f8047075186a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/338229db9540d596f5c396721c21f8047075186a",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/338229db9540d596f5c396721c21f8047075186a",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/338229db9540d596f5c396721c21f8047075186a/comments",
+    "author": {
+      "login": "StoyanDimitrov",
+      "id": 10962709,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10962709?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/StoyanDimitrov",
+      "html_url": "https://github.com/StoyanDimitrov",
+      "followers_url": "https://api.github.com/users/StoyanDimitrov/followers",
+      "following_url": "https://api.github.com/users/StoyanDimitrov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/StoyanDimitrov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/StoyanDimitrov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/StoyanDimitrov/subscriptions",
+      "organizations_url": "https://api.github.com/users/StoyanDimitrov/orgs",
+      "repos_url": "https://api.github.com/users/StoyanDimitrov/repos",
+      "events_url": "https://api.github.com/users/StoyanDimitrov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/StoyanDimitrov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mozilla-pontoon",
+      "id": 10512514,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10512514?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mozilla-pontoon",
+      "html_url": "https://github.com/mozilla-pontoon",
+      "followers_url": "https://api.github.com/users/mozilla-pontoon/followers",
+      "following_url": "https://api.github.com/users/mozilla-pontoon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mozilla-pontoon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mozilla-pontoon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mozilla-pontoon/subscriptions",
+      "organizations_url": "https://api.github.com/users/mozilla-pontoon/orgs",
+      "repos_url": "https://api.github.com/users/mozilla-pontoon/repos",
+      "events_url": "https://api.github.com/users/mozilla-pontoon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mozilla-pontoon/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4f280a3213da1d7a8bb6a04cdb22ca3d637151e8",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/4f280a3213da1d7a8bb6a04cdb22ca3d637151e8",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/4f280a3213da1d7a8bb6a04cdb22ca3d637151e8"
+      }
+    ]
+  },
+  {
+    "sha": "4f280a3213da1d7a8bb6a04cdb22ca3d637151e8",
+    "commit": {
+      "author": {
+        "name": "paul.trevor",
+        "email": "paul.trevor@gmx.de",
+        "date": "2017-05-08T21:11:51Z"
+      },
+      "committer": {
+        "name": "Mozilla Pontoon",
+        "email": "pontoon@mozilla.com",
+        "date": "2017-05-08T21:11:51Z"
+      },
+      "message": "Pontoon: Update German (de) localization of AMO Frontend\n\nLocalization authors:\n- paul.trevor <paul.trevor@gmx.de>",
+      "tree": {
+        "sha": "97342295e569242a2b5ee175e46a5674a5ea73ab",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/97342295e569242a2b5ee175e46a5674a5ea73ab"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/4f280a3213da1d7a8bb6a04cdb22ca3d637151e8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/4f280a3213da1d7a8bb6a04cdb22ca3d637151e8",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/4f280a3213da1d7a8bb6a04cdb22ca3d637151e8",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/4f280a3213da1d7a8bb6a04cdb22ca3d637151e8/comments",
+    "author": null,
+    "committer": {
+      "login": "mozilla-pontoon",
+      "id": 10512514,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10512514?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mozilla-pontoon",
+      "html_url": "https://github.com/mozilla-pontoon",
+      "followers_url": "https://api.github.com/users/mozilla-pontoon/followers",
+      "following_url": "https://api.github.com/users/mozilla-pontoon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mozilla-pontoon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mozilla-pontoon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mozilla-pontoon/subscriptions",
+      "organizations_url": "https://api.github.com/users/mozilla-pontoon/orgs",
+      "repos_url": "https://api.github.com/users/mozilla-pontoon/repos",
+      "events_url": "https://api.github.com/users/mozilla-pontoon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mozilla-pontoon/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "756443d4e35ea3b1ce77f75b822ac002e0dd01d3",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/756443d4e35ea3b1ce77f75b822ac002e0dd01d3",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/756443d4e35ea3b1ce77f75b822ac002e0dd01d3"
+      }
+    ]
+  },
+  {
+    "sha": "756443d4e35ea3b1ce77f75b822ac002e0dd01d3",
+    "commit": {
+      "author": {
+        "name": "paul.trevor",
+        "email": "paul.trevor@gmx.de",
+        "date": "2017-05-08T19:51:07Z"
+      },
+      "committer": {
+        "name": "Mozilla Pontoon",
+        "email": "pontoon@mozilla.com",
+        "date": "2017-05-08T19:51:07Z"
+      },
+      "message": "Pontoon: Update German (de) localization of AMO Frontend\n\nLocalization authors:\n- paul.trevor <paul.trevor@gmx.de>",
+      "tree": {
+        "sha": "3e27efba072e6fe1121c091fdc897caab585809e",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/3e27efba072e6fe1121c091fdc897caab585809e"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/756443d4e35ea3b1ce77f75b822ac002e0dd01d3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/756443d4e35ea3b1ce77f75b822ac002e0dd01d3",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/756443d4e35ea3b1ce77f75b822ac002e0dd01d3",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/756443d4e35ea3b1ce77f75b822ac002e0dd01d3/comments",
+    "author": null,
+    "committer": {
+      "login": "mozilla-pontoon",
+      "id": 10512514,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10512514?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mozilla-pontoon",
+      "html_url": "https://github.com/mozilla-pontoon",
+      "followers_url": "https://api.github.com/users/mozilla-pontoon/followers",
+      "following_url": "https://api.github.com/users/mozilla-pontoon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mozilla-pontoon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mozilla-pontoon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mozilla-pontoon/subscriptions",
+      "organizations_url": "https://api.github.com/users/mozilla-pontoon/orgs",
+      "repos_url": "https://api.github.com/users/mozilla-pontoon/repos",
+      "events_url": "https://api.github.com/users/mozilla-pontoon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mozilla-pontoon/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "36cacf3fff28617ecde54a0708b2cf732f66118d",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/36cacf3fff28617ecde54a0708b2cf732f66118d",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/36cacf3fff28617ecde54a0708b2cf732f66118d"
+      }
+    ]
+  },
+  {
+    "sha": "36cacf3fff28617ecde54a0708b2cf732f66118d",
+    "commit": {
+      "author": {
+        "name": "paul.trevor",
+        "email": "paul.trevor@gmx.de",
+        "date": "2017-05-08T19:11:26Z"
+      },
+      "committer": {
+        "name": "Mozilla Pontoon",
+        "email": "pontoon@mozilla.com",
+        "date": "2017-05-08T19:11:26Z"
+      },
+      "message": "Pontoon: Update German (de) localization of AMO Frontend\n\nLocalization authors:\n- paul.trevor <paul.trevor@gmx.de>",
+      "tree": {
+        "sha": "01cc722b0e28ca20330e59cb54b9687ddef0c5df",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/01cc722b0e28ca20330e59cb54b9687ddef0c5df"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/36cacf3fff28617ecde54a0708b2cf732f66118d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/36cacf3fff28617ecde54a0708b2cf732f66118d",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/36cacf3fff28617ecde54a0708b2cf732f66118d",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/36cacf3fff28617ecde54a0708b2cf732f66118d/comments",
+    "author": null,
+    "committer": {
+      "login": "mozilla-pontoon",
+      "id": 10512514,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10512514?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mozilla-pontoon",
+      "html_url": "https://github.com/mozilla-pontoon",
+      "followers_url": "https://api.github.com/users/mozilla-pontoon/followers",
+      "following_url": "https://api.github.com/users/mozilla-pontoon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mozilla-pontoon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mozilla-pontoon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mozilla-pontoon/subscriptions",
+      "organizations_url": "https://api.github.com/users/mozilla-pontoon/orgs",
+      "repos_url": "https://api.github.com/users/mozilla-pontoon/repos",
+      "events_url": "https://api.github.com/users/mozilla-pontoon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mozilla-pontoon/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ef018f20b2bd29cc1035f92453c700f04256fb26",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/ef018f20b2bd29cc1035f92453c700f04256fb26",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/ef018f20b2bd29cc1035f92453c700f04256fb26"
+      }
+    ]
+  },
+  {
+    "sha": "ef018f20b2bd29cc1035f92453c700f04256fb26",
+    "commit": {
+      "author": {
+        "name": "Kumar McMillan",
+        "email": "kumar.mcmillan@gmail.com",
+        "date": "2017-05-08T15:08:24Z"
+      },
+      "committer": {
+        "name": "Kumar McMillan",
+        "email": "kumar.mcmillan@gmail.com",
+        "date": "2017-05-08T15:08:24Z"
+      },
+      "message": "sync yarn.lock with master",
+      "tree": {
+        "sha": "6098fc7d8309922fcf5ccd9ee341b4c958df1639",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/6098fc7d8309922fcf5ccd9ee341b4c958df1639"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/ef018f20b2bd29cc1035f92453c700f04256fb26",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/ef018f20b2bd29cc1035f92453c700f04256fb26",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/ef018f20b2bd29cc1035f92453c700f04256fb26",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/ef018f20b2bd29cc1035f92453c700f04256fb26/comments",
+    "author": {
+      "login": "kumar303",
+      "id": 55398,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kumar303",
+      "html_url": "https://github.com/kumar303",
+      "followers_url": "https://api.github.com/users/kumar303/followers",
+      "following_url": "https://api.github.com/users/kumar303/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kumar303/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kumar303/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kumar303/subscriptions",
+      "organizations_url": "https://api.github.com/users/kumar303/orgs",
+      "repos_url": "https://api.github.com/users/kumar303/repos",
+      "events_url": "https://api.github.com/users/kumar303/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kumar303/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kumar303",
+      "id": 55398,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kumar303",
+      "html_url": "https://github.com/kumar303",
+      "followers_url": "https://api.github.com/users/kumar303/followers",
+      "following_url": "https://api.github.com/users/kumar303/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kumar303/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kumar303/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kumar303/subscriptions",
+      "organizations_url": "https://api.github.com/users/kumar303/orgs",
+      "repos_url": "https://api.github.com/users/kumar303/repos",
+      "events_url": "https://api.github.com/users/kumar303/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kumar303/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "136054a1d9fa1eb7ba1b405530adeacb60a905d0",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/136054a1d9fa1eb7ba1b405530adeacb60a905d0",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/136054a1d9fa1eb7ba1b405530adeacb60a905d0"
+      }
+    ]
+  },
+  {
+    "sha": "136054a1d9fa1eb7ba1b405530adeacb60a905d0",
+    "commit": {
+      "author": {
+        "name": "Belayet Hossain",
+        "email": "bellayet@gmail.com",
+        "date": "2017-05-07T12:11:27Z"
+      },
+      "committer": {
+        "name": "Mozilla Pontoon",
+        "email": "pontoon@mozilla.com",
+        "date": "2017-05-07T12:11:27Z"
+      },
+      "message": "Pontoon: Update Bengali (bn-BD) localization of AMO Frontend\n\nLocalization authors:\n- Belayet Hossain <bellayet@gmail.com>",
+      "tree": {
+        "sha": "eff05b586f642c59b6c8d8b6e71241c4ccf0897a",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/eff05b586f642c59b6c8d8b6e71241c4ccf0897a"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/136054a1d9fa1eb7ba1b405530adeacb60a905d0",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/136054a1d9fa1eb7ba1b405530adeacb60a905d0",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/136054a1d9fa1eb7ba1b405530adeacb60a905d0",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/136054a1d9fa1eb7ba1b405530adeacb60a905d0/comments",
+    "author": {
+      "login": "bellayet",
+      "id": 5299540,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5299540?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bellayet",
+      "html_url": "https://github.com/bellayet",
+      "followers_url": "https://api.github.com/users/bellayet/followers",
+      "following_url": "https://api.github.com/users/bellayet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bellayet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bellayet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bellayet/subscriptions",
+      "organizations_url": "https://api.github.com/users/bellayet/orgs",
+      "repos_url": "https://api.github.com/users/bellayet/repos",
+      "events_url": "https://api.github.com/users/bellayet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bellayet/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mozilla-pontoon",
+      "id": 10512514,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10512514?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mozilla-pontoon",
+      "html_url": "https://github.com/mozilla-pontoon",
+      "followers_url": "https://api.github.com/users/mozilla-pontoon/followers",
+      "following_url": "https://api.github.com/users/mozilla-pontoon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mozilla-pontoon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mozilla-pontoon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mozilla-pontoon/subscriptions",
+      "organizations_url": "https://api.github.com/users/mozilla-pontoon/orgs",
+      "repos_url": "https://api.github.com/users/mozilla-pontoon/repos",
+      "events_url": "https://api.github.com/users/mozilla-pontoon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mozilla-pontoon/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "af3b1717d53648c11a94f46ed12b8e68c270306a",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/af3b1717d53648c11a94f46ed12b8e68c270306a",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/af3b1717d53648c11a94f46ed12b8e68c270306a"
+      }
+    ]
+  },
+  {
+    "sha": "af3b1717d53648c11a94f46ed12b8e68c270306a",
+    "commit": {
+      "author": {
+        "name": "um.qshi",
+        "email": "um.qshi@gmail.com",
+        "date": "2017-05-06T11:30:39Z"
+      },
+      "committer": {
+        "name": "Mozilla Pontoon",
+        "email": "pontoon@mozilla.com",
+        "date": "2017-05-06T11:30:39Z"
+      },
+      "message": "Pontoon: Update Urdu (ur) localization of AMO Frontend\n\nLocalization authors:\n- um.qshi <um.qshi@gmail.com>",
+      "tree": {
+        "sha": "92e70d285187427bdafa0a44358794da9fb48382",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/92e70d285187427bdafa0a44358794da9fb48382"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/af3b1717d53648c11a94f46ed12b8e68c270306a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/af3b1717d53648c11a94f46ed12b8e68c270306a",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/af3b1717d53648c11a94f46ed12b8e68c270306a",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/af3b1717d53648c11a94f46ed12b8e68c270306a/comments",
+    "author": {
+      "login": "umertanvir",
+      "id": 13235124,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/13235124?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/umertanvir",
+      "html_url": "https://github.com/umertanvir",
+      "followers_url": "https://api.github.com/users/umertanvir/followers",
+      "following_url": "https://api.github.com/users/umertanvir/following{/other_user}",
+      "gists_url": "https://api.github.com/users/umertanvir/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/umertanvir/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/umertanvir/subscriptions",
+      "organizations_url": "https://api.github.com/users/umertanvir/orgs",
+      "repos_url": "https://api.github.com/users/umertanvir/repos",
+      "events_url": "https://api.github.com/users/umertanvir/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/umertanvir/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mozilla-pontoon",
+      "id": 10512514,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10512514?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mozilla-pontoon",
+      "html_url": "https://github.com/mozilla-pontoon",
+      "followers_url": "https://api.github.com/users/mozilla-pontoon/followers",
+      "following_url": "https://api.github.com/users/mozilla-pontoon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mozilla-pontoon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mozilla-pontoon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mozilla-pontoon/subscriptions",
+      "organizations_url": "https://api.github.com/users/mozilla-pontoon/orgs",
+      "repos_url": "https://api.github.com/users/mozilla-pontoon/repos",
+      "events_url": "https://api.github.com/users/mozilla-pontoon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mozilla-pontoon/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6129e8483c053e7fe6c684b2a90ea95b5cd94ee2",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/6129e8483c053e7fe6c684b2a90ea95b5cd94ee2",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/6129e8483c053e7fe6c684b2a90ea95b5cd94ee2"
+      }
+    ]
+  },
+  {
+    "sha": "6129e8483c053e7fe6c684b2a90ea95b5cd94ee2",
+    "commit": {
+      "author": {
+        "name": "tofumatt ☕️",
+        "email": "matt@lonelyvegan.com",
+        "date": "2017-05-05T13:55:44Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-05-05T13:55:44Z"
+      },
+      "message": "Merge pull request #2351 from mozilla/greenkeeper/deep-eql-2.0.2\n\nUpdate deep-eql to the latest version 🚀",
+      "tree": {
+        "sha": "e58427c706b044f0d1675c2ecaf9aecabcc47541",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/e58427c706b044f0d1675c2ecaf9aecabcc47541"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/6129e8483c053e7fe6c684b2a90ea95b5cd94ee2",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/6129e8483c053e7fe6c684b2a90ea95b5cd94ee2",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/6129e8483c053e7fe6c684b2a90ea95b5cd94ee2",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/6129e8483c053e7fe6c684b2a90ea95b5cd94ee2/comments",
+    "author": {
+      "login": "tofumatt",
+      "id": 90871,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/90871?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tofumatt",
+      "html_url": "https://github.com/tofumatt",
+      "followers_url": "https://api.github.com/users/tofumatt/followers",
+      "following_url": "https://api.github.com/users/tofumatt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tofumatt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tofumatt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tofumatt/subscriptions",
+      "organizations_url": "https://api.github.com/users/tofumatt/orgs",
+      "repos_url": "https://api.github.com/users/tofumatt/repos",
+      "events_url": "https://api.github.com/users/tofumatt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tofumatt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ad6c7eee4edbf2b92b58b76f11133d2f6c311f07",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/ad6c7eee4edbf2b92b58b76f11133d2f6c311f07",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/ad6c7eee4edbf2b92b58b76f11133d2f6c311f07"
+      },
+      {
+        "sha": "0670c5ab302778582febb56e959d1f510fc936d4",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/0670c5ab302778582febb56e959d1f510fc936d4",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/0670c5ab302778582febb56e959d1f510fc936d4"
+      }
+    ]
+  },
+  {
+    "sha": "ad6c7eee4edbf2b92b58b76f11133d2f6c311f07",
+    "commit": {
+      "author": {
+        "name": "tofumatt ☕️",
+        "email": "matt@lonelyvegan.com",
+        "date": "2017-05-05T13:55:23Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-05-05T13:55:23Z"
+      },
+      "message": "Merge pull request #2349 from mozilla/greenkeeper/react-redux-loading-bar-2.9.0\n\nUpdate react-redux-loading-bar to the latest version 🚀",
+      "tree": {
+        "sha": "f083a3bc8d617a88ac42fdb7d5588e89537c13b2",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/f083a3bc8d617a88ac42fdb7d5588e89537c13b2"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/ad6c7eee4edbf2b92b58b76f11133d2f6c311f07",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/ad6c7eee4edbf2b92b58b76f11133d2f6c311f07",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/ad6c7eee4edbf2b92b58b76f11133d2f6c311f07",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/ad6c7eee4edbf2b92b58b76f11133d2f6c311f07/comments",
+    "author": {
+      "login": "tofumatt",
+      "id": 90871,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/90871?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tofumatt",
+      "html_url": "https://github.com/tofumatt",
+      "followers_url": "https://api.github.com/users/tofumatt/followers",
+      "following_url": "https://api.github.com/users/tofumatt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tofumatt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tofumatt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tofumatt/subscriptions",
+      "organizations_url": "https://api.github.com/users/tofumatt/orgs",
+      "repos_url": "https://api.github.com/users/tofumatt/repos",
+      "events_url": "https://api.github.com/users/tofumatt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tofumatt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dddd4603e2c41033d5cc8004ee3b654e855eb94b",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/dddd4603e2c41033d5cc8004ee3b654e855eb94b",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/dddd4603e2c41033d5cc8004ee3b654e855eb94b"
+      },
+      {
+        "sha": "4a08d4a263d8b8bb7643bd548beb46f7542eb023",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/4a08d4a263d8b8bb7643bd548beb46f7542eb023",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/4a08d4a263d8b8bb7643bd548beb46f7542eb023"
+      }
+    ]
+  },
+  {
+    "sha": "dddd4603e2c41033d5cc8004ee3b654e855eb94b",
+    "commit": {
+      "author": {
+        "name": "tofumatt ☕️",
+        "email": "matt@lonelyvegan.com",
+        "date": "2017-05-05T13:55:12Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-05-05T13:55:12Z"
+      },
+      "message": "Merge pull request #2350 from mozilla/greenkeeper/helmet-3.6.0\n\nUpdate helmet to the latest version 🚀",
+      "tree": {
+        "sha": "26da9bbfaa4f38ca1f69152e5d45d5fbcba1003b",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/26da9bbfaa4f38ca1f69152e5d45d5fbcba1003b"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/dddd4603e2c41033d5cc8004ee3b654e855eb94b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/dddd4603e2c41033d5cc8004ee3b654e855eb94b",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/dddd4603e2c41033d5cc8004ee3b654e855eb94b",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/dddd4603e2c41033d5cc8004ee3b654e855eb94b/comments",
+    "author": {
+      "login": "tofumatt",
+      "id": 90871,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/90871?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tofumatt",
+      "html_url": "https://github.com/tofumatt",
+      "followers_url": "https://api.github.com/users/tofumatt/followers",
+      "following_url": "https://api.github.com/users/tofumatt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tofumatt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tofumatt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tofumatt/subscriptions",
+      "organizations_url": "https://api.github.com/users/tofumatt/orgs",
+      "repos_url": "https://api.github.com/users/tofumatt/repos",
+      "events_url": "https://api.github.com/users/tofumatt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tofumatt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5c4c543e18e9da5e9ec401731c7051287e552cd7",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/5c4c543e18e9da5e9ec401731c7051287e552cd7",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/5c4c543e18e9da5e9ec401731c7051287e552cd7"
+      },
+      {
+        "sha": "1e57bd0608fa82d93436ac45f6221f398af979ed",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/1e57bd0608fa82d93436ac45f6221f398af979ed",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/1e57bd0608fa82d93436ac45f6221f398af979ed"
+      }
+    ]
+  },
+  {
+    "sha": "0670c5ab302778582febb56e959d1f510fc936d4",
+    "commit": {
+      "author": {
+        "name": "greenkeeper[bot]",
+        "email": "greenkeeper[bot]@users.noreply.github.com",
+        "date": "2017-05-05T11:19:55Z"
+      },
+      "committer": {
+        "name": "greenkeeper[bot]",
+        "email": "greenkeeper[bot]@users.noreply.github.com",
+        "date": "2017-05-05T11:19:55Z"
+      },
+      "message": "fix(package): update deep-eql to version 2.0.2",
+      "tree": {
+        "sha": "be1b89b998b7c500b06ccbd236bb5b16eec9b8c7",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/be1b89b998b7c500b06ccbd236bb5b16eec9b8c7"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/0670c5ab302778582febb56e959d1f510fc936d4",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/0670c5ab302778582febb56e959d1f510fc936d4",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/0670c5ab302778582febb56e959d1f510fc936d4",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/0670c5ab302778582febb56e959d1f510fc936d4/comments",
+    "author": {
+      "login": "greenkeeper[bot]",
+      "id": 23040076,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13812225?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/greenkeeper%5Bbot%5D",
+      "html_url": "https://github.com/integration/greenkeeper",
+      "followers_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "greenkeeper[bot]",
+      "id": 23040076,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13812225?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/greenkeeper%5Bbot%5D",
+      "html_url": "https://github.com/integration/greenkeeper",
+      "followers_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5c4c543e18e9da5e9ec401731c7051287e552cd7",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/5c4c543e18e9da5e9ec401731c7051287e552cd7",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/5c4c543e18e9da5e9ec401731c7051287e552cd7"
+      }
+    ]
+  },
+  {
+    "sha": "5c4c543e18e9da5e9ec401731c7051287e552cd7",
+    "commit": {
+      "author": {
+        "name": "Håvar Henriksen",
+        "email": "havar@firefox.no",
+        "date": "2017-05-05T10:30:56Z"
+      },
+      "committer": {
+        "name": "Mozilla Pontoon",
+        "email": "pontoon@mozilla.com",
+        "date": "2017-05-05T10:30:56Z"
+      },
+      "message": "Pontoon: Update Norwegian Bokmål (nb-NO) localization of AMO Frontend\n\nLocalization authors:\n- Håvar Henriksen <havar@firefox.no>",
+      "tree": {
+        "sha": "01657892291f7373c525d783b3858eba8c167b03",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/01657892291f7373c525d783b3858eba8c167b03"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/5c4c543e18e9da5e9ec401731c7051287e552cd7",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/5c4c543e18e9da5e9ec401731c7051287e552cd7",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/5c4c543e18e9da5e9ec401731c7051287e552cd7",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/5c4c543e18e9da5e9ec401731c7051287e552cd7/comments",
+    "author": null,
+    "committer": {
+      "login": "mozilla-pontoon",
+      "id": 10512514,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10512514?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mozilla-pontoon",
+      "html_url": "https://github.com/mozilla-pontoon",
+      "followers_url": "https://api.github.com/users/mozilla-pontoon/followers",
+      "following_url": "https://api.github.com/users/mozilla-pontoon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mozilla-pontoon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mozilla-pontoon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mozilla-pontoon/subscriptions",
+      "organizations_url": "https://api.github.com/users/mozilla-pontoon/orgs",
+      "repos_url": "https://api.github.com/users/mozilla-pontoon/repos",
+      "events_url": "https://api.github.com/users/mozilla-pontoon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mozilla-pontoon/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c45956bc78e2cd3263d6acebe44b65cefb7cec3d",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/c45956bc78e2cd3263d6acebe44b65cefb7cec3d",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/c45956bc78e2cd3263d6acebe44b65cefb7cec3d"
+      }
+    ]
+  },
+  {
+    "sha": "1e57bd0608fa82d93436ac45f6221f398af979ed",
+    "commit": {
+      "author": {
+        "name": "greenkeeper[bot]",
+        "email": "greenkeeper[bot]@users.noreply.github.com",
+        "date": "2017-05-04T22:50:23Z"
+      },
+      "committer": {
+        "name": "greenkeeper[bot]",
+        "email": "greenkeeper[bot]@users.noreply.github.com",
+        "date": "2017-05-04T22:50:23Z"
+      },
+      "message": "fix(package): update helmet to version 3.6.0",
+      "tree": {
+        "sha": "d545a44e5059b4761747804bc7033152191cc59e",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/d545a44e5059b4761747804bc7033152191cc59e"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/1e57bd0608fa82d93436ac45f6221f398af979ed",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/1e57bd0608fa82d93436ac45f6221f398af979ed",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/1e57bd0608fa82d93436ac45f6221f398af979ed",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/1e57bd0608fa82d93436ac45f6221f398af979ed/comments",
+    "author": {
+      "login": "greenkeeper[bot]",
+      "id": 23040076,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13812225?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/greenkeeper%5Bbot%5D",
+      "html_url": "https://github.com/integration/greenkeeper",
+      "followers_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "greenkeeper[bot]",
+      "id": 23040076,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13812225?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/greenkeeper%5Bbot%5D",
+      "html_url": "https://github.com/integration/greenkeeper",
+      "followers_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c45956bc78e2cd3263d6acebe44b65cefb7cec3d",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/c45956bc78e2cd3263d6acebe44b65cefb7cec3d",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/c45956bc78e2cd3263d6acebe44b65cefb7cec3d"
+      }
+    ]
+  },
+  {
+    "sha": "c45956bc78e2cd3263d6acebe44b65cefb7cec3d",
+    "commit": {
+      "author": {
+        "name": "Kumar McMillan",
+        "email": "kumar.mcmillan@gmail.com",
+        "date": "2017-05-04T20:22:40Z"
+      },
+      "committer": {
+        "name": "Kumar McMillan",
+        "email": "kumar.mcmillan@gmail.com",
+        "date": "2017-05-04T20:22:40Z"
+      },
+      "message": "sync yarn.lock with master",
+      "tree": {
+        "sha": "5083c56569c825305926932ff542b230297140e8",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/5083c56569c825305926932ff542b230297140e8"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/c45956bc78e2cd3263d6acebe44b65cefb7cec3d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/c45956bc78e2cd3263d6acebe44b65cefb7cec3d",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/c45956bc78e2cd3263d6acebe44b65cefb7cec3d",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/c45956bc78e2cd3263d6acebe44b65cefb7cec3d/comments",
+    "author": {
+      "login": "kumar303",
+      "id": 55398,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kumar303",
+      "html_url": "https://github.com/kumar303",
+      "followers_url": "https://api.github.com/users/kumar303/followers",
+      "following_url": "https://api.github.com/users/kumar303/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kumar303/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kumar303/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kumar303/subscriptions",
+      "organizations_url": "https://api.github.com/users/kumar303/orgs",
+      "repos_url": "https://api.github.com/users/kumar303/repos",
+      "events_url": "https://api.github.com/users/kumar303/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kumar303/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kumar303",
+      "id": 55398,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kumar303",
+      "html_url": "https://github.com/kumar303",
+      "followers_url": "https://api.github.com/users/kumar303/followers",
+      "following_url": "https://api.github.com/users/kumar303/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kumar303/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kumar303/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kumar303/subscriptions",
+      "organizations_url": "https://api.github.com/users/kumar303/orgs",
+      "repos_url": "https://api.github.com/users/kumar303/repos",
+      "events_url": "https://api.github.com/users/kumar303/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kumar303/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a611f0ac68ba085653ccbcb3bd584ba71993d588",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/a611f0ac68ba085653ccbcb3bd584ba71993d588",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/a611f0ac68ba085653ccbcb3bd584ba71993d588"
+      }
+    ]
+  },
+  {
+    "sha": "4a08d4a263d8b8bb7643bd548beb46f7542eb023",
+    "commit": {
+      "author": {
+        "name": "greenkeeper[bot]",
+        "email": "greenkeeper[bot]@users.noreply.github.com",
+        "date": "2017-05-04T19:24:26Z"
+      },
+      "committer": {
+        "name": "greenkeeper[bot]",
+        "email": "greenkeeper[bot]@users.noreply.github.com",
+        "date": "2017-05-04T19:24:26Z"
+      },
+      "message": "fix(package): update react-redux-loading-bar to version 2.9.0",
+      "tree": {
+        "sha": "85a2a2721362f5679dac8a9006afdd30beb5b2e0",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/85a2a2721362f5679dac8a9006afdd30beb5b2e0"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/4a08d4a263d8b8bb7643bd548beb46f7542eb023",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/4a08d4a263d8b8bb7643bd548beb46f7542eb023",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/4a08d4a263d8b8bb7643bd548beb46f7542eb023",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/4a08d4a263d8b8bb7643bd548beb46f7542eb023/comments",
+    "author": {
+      "login": "greenkeeper[bot]",
+      "id": 23040076,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13812225?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/greenkeeper%5Bbot%5D",
+      "html_url": "https://github.com/integration/greenkeeper",
+      "followers_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "greenkeeper[bot]",
+      "id": 23040076,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13812225?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/greenkeeper%5Bbot%5D",
+      "html_url": "https://github.com/integration/greenkeeper",
+      "followers_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a611f0ac68ba085653ccbcb3bd584ba71993d588",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/a611f0ac68ba085653ccbcb3bd584ba71993d588",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/a611f0ac68ba085653ccbcb3bd584ba71993d588"
+      }
+    ]
+  },
+  {
+    "sha": "a611f0ac68ba085653ccbcb3bd584ba71993d588",
+    "commit": {
+      "author": {
+        "name": "Kumar McMillan",
+        "email": "kumar.mcmillan@gmail.com",
+        "date": "2017-05-03T21:45:22Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-05-03T21:45:22Z"
+      },
+      "message": "Clean up 404 routes that we don't need anymore (#2347)",
+      "tree": {
+        "sha": "068e8f5bd010e4338be31035a5784684d5a93c02",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/068e8f5bd010e4338be31035a5784684d5a93c02"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/a611f0ac68ba085653ccbcb3bd584ba71993d588",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/a611f0ac68ba085653ccbcb3bd584ba71993d588",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/a611f0ac68ba085653ccbcb3bd584ba71993d588",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/a611f0ac68ba085653ccbcb3bd584ba71993d588/comments",
+    "author": {
+      "login": "kumar303",
+      "id": 55398,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kumar303",
+      "html_url": "https://github.com/kumar303",
+      "followers_url": "https://api.github.com/users/kumar303/followers",
+      "following_url": "https://api.github.com/users/kumar303/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kumar303/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kumar303/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kumar303/subscriptions",
+      "organizations_url": "https://api.github.com/users/kumar303/orgs",
+      "repos_url": "https://api.github.com/users/kumar303/repos",
+      "events_url": "https://api.github.com/users/kumar303/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kumar303/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3ec582d7d89139d77bc9c185c3d4f41d6acbb4f1",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/3ec582d7d89139d77bc9c185c3d4f41d6acbb4f1",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/3ec582d7d89139d77bc9c185c3d4f41d6acbb4f1"
+      }
+    ]
+  },
+  {
+    "sha": "3ec582d7d89139d77bc9c185c3d4f41d6acbb4f1",
+    "commit": {
+      "author": {
+        "name": "Kumar McMillan",
+        "email": "kumar.mcmillan@gmail.com",
+        "date": "2017-05-03T18:37:53Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-05-03T18:37:53Z"
+      },
+      "message": "fix(package): update normalize.css to version 7.0.0 (#2337)\n\nCloses #2188",
+      "tree": {
+        "sha": "5b744129a251ab3e5ebe5494fcee168881332fe2",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/5b744129a251ab3e5ebe5494fcee168881332fe2"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/3ec582d7d89139d77bc9c185c3d4f41d6acbb4f1",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/3ec582d7d89139d77bc9c185c3d4f41d6acbb4f1",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/3ec582d7d89139d77bc9c185c3d4f41d6acbb4f1",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/3ec582d7d89139d77bc9c185c3d4f41d6acbb4f1/comments",
+    "author": {
+      "login": "kumar303",
+      "id": 55398,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kumar303",
+      "html_url": "https://github.com/kumar303",
+      "followers_url": "https://api.github.com/users/kumar303/followers",
+      "following_url": "https://api.github.com/users/kumar303/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kumar303/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kumar303/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kumar303/subscriptions",
+      "organizations_url": "https://api.github.com/users/kumar303/orgs",
+      "repos_url": "https://api.github.com/users/kumar303/repos",
+      "events_url": "https://api.github.com/users/kumar303/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kumar303/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bc8a5715312776222e6716a3951e9f563ecef6f6",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/bc8a5715312776222e6716a3951e9f563ecef6f6",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/bc8a5715312776222e6716a3951e9f563ecef6f6"
+      }
+    ]
+  },
+  {
+    "sha": "bc8a5715312776222e6716a3951e9f563ecef6f6",
+    "commit": {
+      "author": {
+        "name": "Victor Bychek",
+        "email": "a@bychek.ru",
+        "date": "2017-05-03T16:30:50Z"
+      },
+      "committer": {
+        "name": "Mozilla Pontoon",
+        "email": "pontoon@mozilla.com",
+        "date": "2017-05-03T16:30:50Z"
+      },
+      "message": "Pontoon: Update Russian (ru) localization of AMO Frontend\n\nLocalization authors:\n- Victor Bychek <a@bychek.ru>",
+      "tree": {
+        "sha": "d7a7f2c0837fed68c39fdaf26f09d80a96c8bdf6",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/d7a7f2c0837fed68c39fdaf26f09d80a96c8bdf6"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/bc8a5715312776222e6716a3951e9f563ecef6f6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/bc8a5715312776222e6716a3951e9f563ecef6f6",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/bc8a5715312776222e6716a3951e9f563ecef6f6",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/bc8a5715312776222e6716a3951e9f563ecef6f6/comments",
+    "author": {
+      "login": "BychekRU",
+      "id": 3993729,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3993729?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/BychekRU",
+      "html_url": "https://github.com/BychekRU",
+      "followers_url": "https://api.github.com/users/BychekRU/followers",
+      "following_url": "https://api.github.com/users/BychekRU/following{/other_user}",
+      "gists_url": "https://api.github.com/users/BychekRU/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/BychekRU/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/BychekRU/subscriptions",
+      "organizations_url": "https://api.github.com/users/BychekRU/orgs",
+      "repos_url": "https://api.github.com/users/BychekRU/repos",
+      "events_url": "https://api.github.com/users/BychekRU/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/BychekRU/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mozilla-pontoon",
+      "id": 10512514,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10512514?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mozilla-pontoon",
+      "html_url": "https://github.com/mozilla-pontoon",
+      "followers_url": "https://api.github.com/users/mozilla-pontoon/followers",
+      "following_url": "https://api.github.com/users/mozilla-pontoon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mozilla-pontoon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mozilla-pontoon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mozilla-pontoon/subscriptions",
+      "organizations_url": "https://api.github.com/users/mozilla-pontoon/orgs",
+      "repos_url": "https://api.github.com/users/mozilla-pontoon/repos",
+      "events_url": "https://api.github.com/users/mozilla-pontoon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mozilla-pontoon/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c317d8a4b7a867db38f8de7117ec145acfce31b3",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/c317d8a4b7a867db38f8de7117ec145acfce31b3",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/c317d8a4b7a867db38f8de7117ec145acfce31b3"
+      }
+    ]
+  },
+  {
+    "sha": "c317d8a4b7a867db38f8de7117ec145acfce31b3",
+    "commit": {
+      "author": {
+        "name": "Kumar McMillan",
+        "email": "kumar.mcmillan@gmail.com",
+        "date": "2017-05-03T15:44:19Z"
+      },
+      "committer": {
+        "name": "Kumar McMillan",
+        "email": "kumar.mcmillan@gmail.com",
+        "date": "2017-05-03T15:44:19Z"
+      },
+      "message": "sync yarn.lock with master",
+      "tree": {
+        "sha": "dcc67f6eba348204a4a2ba5beab0f5f4314165bf",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/dcc67f6eba348204a4a2ba5beab0f5f4314165bf"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/c317d8a4b7a867db38f8de7117ec145acfce31b3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/c317d8a4b7a867db38f8de7117ec145acfce31b3",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/c317d8a4b7a867db38f8de7117ec145acfce31b3",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/c317d8a4b7a867db38f8de7117ec145acfce31b3/comments",
+    "author": {
+      "login": "kumar303",
+      "id": 55398,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kumar303",
+      "html_url": "https://github.com/kumar303",
+      "followers_url": "https://api.github.com/users/kumar303/followers",
+      "following_url": "https://api.github.com/users/kumar303/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kumar303/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kumar303/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kumar303/subscriptions",
+      "organizations_url": "https://api.github.com/users/kumar303/orgs",
+      "repos_url": "https://api.github.com/users/kumar303/repos",
+      "events_url": "https://api.github.com/users/kumar303/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kumar303/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kumar303",
+      "id": 55398,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kumar303",
+      "html_url": "https://github.com/kumar303",
+      "followers_url": "https://api.github.com/users/kumar303/followers",
+      "following_url": "https://api.github.com/users/kumar303/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kumar303/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kumar303/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kumar303/subscriptions",
+      "organizations_url": "https://api.github.com/users/kumar303/orgs",
+      "repos_url": "https://api.github.com/users/kumar303/repos",
+      "events_url": "https://api.github.com/users/kumar303/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kumar303/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b33f98d2bc88623811cf5821f18dbb2fec0fb0a6",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/b33f98d2bc88623811cf5821f18dbb2fec0fb0a6",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/b33f98d2bc88623811cf5821f18dbb2fec0fb0a6"
+      }
+    ]
+  },
+  {
+    "sha": "b33f98d2bc88623811cf5821f18dbb2fec0fb0a6",
+    "commit": {
+      "author": {
+        "name": "Kumar McMillan",
+        "email": "kumar.mcmillan@gmail.com",
+        "date": "2017-05-03T15:43:01Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-05-03T15:43:01Z"
+      },
+      "message": "Pin dev dependencies to major versions (#2336)",
+      "tree": {
+        "sha": "270d4e7c3273750d1661aa8b9b6cb8f71404b4f2",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/270d4e7c3273750d1661aa8b9b6cb8f71404b4f2"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/b33f98d2bc88623811cf5821f18dbb2fec0fb0a6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/b33f98d2bc88623811cf5821f18dbb2fec0fb0a6",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/b33f98d2bc88623811cf5821f18dbb2fec0fb0a6",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/b33f98d2bc88623811cf5821f18dbb2fec0fb0a6/comments",
+    "author": {
+      "login": "kumar303",
+      "id": 55398,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kumar303",
+      "html_url": "https://github.com/kumar303",
+      "followers_url": "https://api.github.com/users/kumar303/followers",
+      "following_url": "https://api.github.com/users/kumar303/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kumar303/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kumar303/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kumar303/subscriptions",
+      "organizations_url": "https://api.github.com/users/kumar303/orgs",
+      "repos_url": "https://api.github.com/users/kumar303/repos",
+      "events_url": "https://api.github.com/users/kumar303/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kumar303/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "25fca0bf3cb9ad7cf85279381eba6c4fc1bd7486",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/25fca0bf3cb9ad7cf85279381eba6c4fc1bd7486",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/25fca0bf3cb9ad7cf85279381eba6c4fc1bd7486"
+      }
+    ]
+  },
+  {
+    "sha": "25fca0bf3cb9ad7cf85279381eba6c4fc1bd7486",
+    "commit": {
+      "author": {
+        "name": "tofumatt ☕️",
+        "email": "matt@lonelyvegan.com",
+        "date": "2017-05-03T15:12:11Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-05-03T15:12:11Z"
+      },
+      "message": "Merge pull request #2343 from mozilla/greenkeeper/config-1.26.1\n\nUpdate config to the latest version 🚀",
+      "tree": {
+        "sha": "817ee9eeb92e020896917eca46ec6982363821a7",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/817ee9eeb92e020896917eca46ec6982363821a7"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/25fca0bf3cb9ad7cf85279381eba6c4fc1bd7486",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/25fca0bf3cb9ad7cf85279381eba6c4fc1bd7486",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/25fca0bf3cb9ad7cf85279381eba6c4fc1bd7486",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/25fca0bf3cb9ad7cf85279381eba6c4fc1bd7486/comments",
+    "author": {
+      "login": "tofumatt",
+      "id": 90871,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/90871?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tofumatt",
+      "html_url": "https://github.com/tofumatt",
+      "followers_url": "https://api.github.com/users/tofumatt/followers",
+      "following_url": "https://api.github.com/users/tofumatt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tofumatt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tofumatt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tofumatt/subscriptions",
+      "organizations_url": "https://api.github.com/users/tofumatt/orgs",
+      "repos_url": "https://api.github.com/users/tofumatt/repos",
+      "events_url": "https://api.github.com/users/tofumatt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tofumatt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7b8d777b2bc361c05e7bba073e10365c34f30c1b",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/7b8d777b2bc361c05e7bba073e10365c34f30c1b",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/7b8d777b2bc361c05e7bba073e10365c34f30c1b"
+      },
+      {
+        "sha": "8c1c8f165c123b8005cc5896a2d9365c681b9ea2",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/8c1c8f165c123b8005cc5896a2d9365c681b9ea2",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/8c1c8f165c123b8005cc5896a2d9365c681b9ea2"
+      }
+    ]
+  },
+  {
+    "sha": "8c1c8f165c123b8005cc5896a2d9365c681b9ea2",
+    "commit": {
+      "author": {
+        "name": "greenkeeper[bot]",
+        "email": "greenkeeper[bot]@users.noreply.github.com",
+        "date": "2017-05-03T14:50:43Z"
+      },
+      "committer": {
+        "name": "greenkeeper[bot]",
+        "email": "greenkeeper[bot]@users.noreply.github.com",
+        "date": "2017-05-03T14:50:43Z"
+      },
+      "message": "fix(package): update config to version 1.26.1",
+      "tree": {
+        "sha": "817ee9eeb92e020896917eca46ec6982363821a7",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/817ee9eeb92e020896917eca46ec6982363821a7"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/8c1c8f165c123b8005cc5896a2d9365c681b9ea2",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/8c1c8f165c123b8005cc5896a2d9365c681b9ea2",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/8c1c8f165c123b8005cc5896a2d9365c681b9ea2",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/8c1c8f165c123b8005cc5896a2d9365c681b9ea2/comments",
+    "author": {
+      "login": "greenkeeper[bot]",
+      "id": 23040076,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13812225?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/greenkeeper%5Bbot%5D",
+      "html_url": "https://github.com/integration/greenkeeper",
+      "followers_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "greenkeeper[bot]",
+      "id": 23040076,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13812225?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/greenkeeper%5Bbot%5D",
+      "html_url": "https://github.com/integration/greenkeeper",
+      "followers_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7b8d777b2bc361c05e7bba073e10365c34f30c1b",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/7b8d777b2bc361c05e7bba073e10365c34f30c1b",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/7b8d777b2bc361c05e7bba073e10365c34f30c1b"
+      }
+    ]
+  },
+  {
+    "sha": "7b8d777b2bc361c05e7bba073e10365c34f30c1b",
+    "commit": {
+      "author": {
+        "name": "Aayush Sanghavi",
+        "email": "aayushsanghavi26@gmail.com",
+        "date": "2017-05-03T13:54:00Z"
+      },
+      "committer": {
+        "name": "tofumatt ☕️",
+        "email": "matt@lonelyvegan.com",
+        "date": "2017-05-03T13:54:00Z"
+      },
+      "message": "fix: If installing a theme from Disco Pane, the description will not be displayed in more section for that theme (#2338)\n\n* Added description key to themeData\r\n* Fixed linting error\r\n* Indentation fix",
+      "tree": {
+        "sha": "6b84b364410353fb68e8b92ab309ef58681a316f",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/git/trees/6b84b364410353fb68e8b92ab309ef58681a316f"
+      },
+      "url": "https://api.github.com/repos/mozilla/addons-frontend/git/commits/7b8d777b2bc361c05e7bba073e10365c34f30c1b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/7b8d777b2bc361c05e7bba073e10365c34f30c1b",
+    "html_url": "https://github.com/mozilla/addons-frontend/commit/7b8d777b2bc361c05e7bba073e10365c34f30c1b",
+    "comments_url": "https://api.github.com/repos/mozilla/addons-frontend/commits/7b8d777b2bc361c05e7bba073e10365c34f30c1b/comments",
+    "author": {
+      "login": "aayushsanghavi",
+      "id": 19590302,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19590302?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aayushsanghavi",
+      "html_url": "https://github.com/aayushsanghavi",
+      "followers_url": "https://api.github.com/users/aayushsanghavi/followers",
+      "following_url": "https://api.github.com/users/aayushsanghavi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aayushsanghavi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aayushsanghavi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aayushsanghavi/subscriptions",
+      "organizations_url": "https://api.github.com/users/aayushsanghavi/orgs",
+      "repos_url": "https://api.github.com/users/aayushsanghavi/repos",
+      "events_url": "https://api.github.com/users/aayushsanghavi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aayushsanghavi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tofumatt",
+      "id": 90871,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/90871?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tofumatt",
+      "html_url": "https://github.com/tofumatt",
+      "followers_url": "https://api.github.com/users/tofumatt/followers",
+      "following_url": "https://api.github.com/users/tofumatt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tofumatt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tofumatt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tofumatt/subscriptions",
+      "organizations_url": "https://api.github.com/users/tofumatt/orgs",
+      "repos_url": "https://api.github.com/users/tofumatt/repos",
+      "events_url": "https://api.github.com/users/tofumatt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tofumatt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a644200f80873c3b0e8e700a94c2cb3d93a6ff4e",
+        "url": "https://api.github.com/repos/mozilla/addons-frontend/commits/a644200f80873c3b0e8e700a94c2cb3d93a6ff4e",
+        "html_url": "https://github.com/mozilla/addons-frontend/commit/a644200f80873c3b0e8e700a94c2cb3d93a6ff4e"
+      }
+    ]
+  }
+]
