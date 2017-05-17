@@ -15,7 +15,19 @@ class Hhomepage : public QDialog
 public:
     explicit Hhomepage(QWidget *parent = 0);
     ~Hhomepage();
-    void addIssuesToList(QJsonDocument issues);
+
+    static QString gitFileName;
+    static QString JiraFileName;
+
+    QString splitWebsiteGit(QString);
+    QString getApiJira(QString projName);
+    QJsonDocument loadJson(QString fileName);
+
+    void addCommitsToList();
+    void addIssuesToList();
+
+    void rePrintCommits();
+    void rePrintIssues();
 
 private slots:
     void on_Log_out_clicked();
@@ -28,15 +40,6 @@ private slots:
 
     void on_issuebButton_clicked();
 
-    QString splitWebsiteGit(QString);
-    QString getApiJira(QString projName);
-    QJsonDocument loadJson(QString fileName);
-
-    void addCommitsToList(QJsonDocument commits);
-
-
-
-    void on_issue_doubleClicked(const QModelIndex &index);
     void on_issue_itemDoubleClicked(QListWidgetItem *item);
 
 private:

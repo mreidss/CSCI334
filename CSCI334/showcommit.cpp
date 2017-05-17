@@ -15,7 +15,7 @@ ShowCommit::~ShowCommit()
 
 void ShowCommit::on_Back_clicked()
 {
-    ViewIssue *Back = new ViewIssue(this);
-    this ->hide();
-    Back ->show();
+    //ViewIssue *Back = new ViewIssue(this);
+    //this ->hide();
+    //Back ->show();
 }

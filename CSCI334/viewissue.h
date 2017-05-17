@@ -12,7 +12,7 @@ class ViewIssue : public QDialog
     Q_OBJECT
 
 public:
-    explicit ViewIssue(QWidget *parent = 0);
+    explicit ViewIssue(QWidget *parent, QString issueID, QString JiraFileName);
     ~ViewIssue();
 
 private slots:

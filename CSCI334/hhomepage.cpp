@@ -17,6 +17,9 @@
 #include <QJsonObject>
 #include <QJsonParseError>
 
+QString Hhomepage::gitFileName = "github.json";
+QString Hhomepage::JiraFileName = "Jira.json";
+
 Hhomepage::Hhomepage(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::Hhomepage)
@@ -45,36 +48,26 @@ void Hhomepage::on_search_clicked()
 
 void Hhomepage::on_Vissue_clicked()
 {
-    ViewIssue *V = new ViewIssue(this);
-    this ->hide();
-    V ->show();
+    //ViewIssue *V = new ViewIssue(this);
+    //this ->hide();
+    //V ->show();
 }
 
 void Hhomepage::on_commitButton_clicked()
 {
-    //searchCommit *s = new searchCommit(this);
-    //this->hide();
-    //s->show();
-
-    //QString link = this->ui->gitWebsite->text();
     QString link = QInputDialog::getText(this, "GitHub Website", "Input a Github Website:");
 
     QString curlCommand = splitWebsiteGit(link);
     QString curl = "curl " + curlCommand;
     qDebug() << "curl: " << curl ;
 
-    QString filename = "github.json";
-
     // Runs Curl Command and outputs it into a JSON file
     QProcess process;
-    process.setStandardOutputFile(filename);
+    process.setStandardOutputFile(gitFileName);
     process.start(curl);
     process.waitForFinished(); // will wait forever until finished
 
-    QJsonDocument jsonDoc = loadJson(filename);
-    //QJsonObject jsonObj = jsonDoc.object();
-
-    addCommitsToList(jsonDoc);
+    addCommitsToList();
 }
 
 
@@ -86,21 +79,19 @@ void Hhomepage::on_issuebButton_clicked()
     QString curl = "curl " + curlCommand;
     qDebug() << "curl: " << curl ;
 
-    QString filename = "Jira.json";
-
     // Runs Curl Command and outputs it into a JSON file
     QProcess process;
-    process.setStandardOutputFile(filename);
+    process.setStandardOutputFile(JiraFileName);
     process.start(curl);
     process.waitForFinished(); // will wait forever until finished
 
-    QJsonDocument jsonDoc = loadJson(filename);
-
-    addIssuesToList(jsonDoc);
+    addIssuesToList();
 }
 
-void Hhomepage::addIssuesToList(QJsonDocument Allissues)
+void Hhomepage::addIssuesToList()
 {
+    QJsonDocument Allissues = loadJson(JiraFileName);
+
     // Json array of the whole json doc
     QJsonObject JsonObject = Allissues.object();
     QJsonValue temp = JsonObject.value("issues");
@@ -129,8 +120,8 @@ void Hhomepage::addIssuesToList(QJsonDocument Allissues)
             id[i] = master["id"].toString();
             key[i] = master["key"].toString();
 
-            ui->issue->addItem("User Name: " + usrName[i] + "\n" +
-                               "Issue ID: " + id[i] + "\n" +
+            ui->issue->addItem("ID:" + id[i] + "\n" +
+                               "User Name: " + usrName[i] + "\n" +
                                "Issue key: " + key[i]
                                );
             ui->issue->addItem("--------------------------------------------------------------------------------------------");
@@ -144,8 +135,10 @@ void Hhomepage::addIssuesToList(QJsonDocument Allissues)
     }
 }
 
-void Hhomepage::addCommitsToList(QJsonDocument Allcommits)
+void Hhomepage::addCommitsToList()
 {
+    QJsonDocument Allcommits = loadJson(gitFileName);
+
     // Json array of the whole json doc
     QJsonArray JsonArray = Allcommits.array();
     QJsonValue value;
@@ -198,7 +191,9 @@ QString Hhomepage::splitWebsiteGit(QString link)
 QString Hhomepage::getApiJira(QString projName)
 {
     QString curlCommand;
-    curlCommand = "https://jira.atlassian.com//rest/api/2/search?jql=project=%22" + projName + "%22";
+    curlCommand = "https://issues.apache.org/jira/rest/api/2/search?jql=project=%22" + projName + "%22";
+    //             https://issues.apache.org/jira/rest/api/2/search?jql=project=%22OPENNLP%22
+    // "https://jira.atlassian.com//rest/api/2/search?jql=project=%22" + projName + "%22";
     return curlCommand;
 }
 
@@ -210,10 +205,15 @@ QJsonDocument Hhomepage::loadJson(QString fileName)
     return QJsonDocument().fromJson(jsonFile.readAll());
 }
 
-
 void Hhomepage::on_issue_itemDoubleClicked(QListWidgetItem *item)
 {
-    ViewIssue *V = new ViewIssue(this);
+    QString temp = item->text();
+    QString id = temp.mid(3,8);
+
+    qDebug() << "temp: " << temp;
+    qDebug() << "id: " << id;
+
+    ViewIssue *V = new ViewIssue(this, id, JiraFileName);
     this ->hide();
     V ->show();
 }
