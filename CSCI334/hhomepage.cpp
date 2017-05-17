@@ -206,3 +206,8 @@ QJsonDocument Hhomepage::loadJson(QString fileName)
     jsonFile.open(QFile::ReadOnly);
     return QJsonDocument().fromJson(jsonFile.readAll());
 }
+
+void Hhomepage::on_issue_doubleClicked(const QModelIndex &index)
+{
+
+}

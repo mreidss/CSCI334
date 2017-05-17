@@ -35,6 +35,8 @@ private slots:
 
 
 
+    void on_issue_doubleClicked(const QModelIndex &index);
+
 private:
     Ui::Hhomepage *ui;
 };
