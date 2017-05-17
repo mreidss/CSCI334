@@ -110,10 +110,10 @@ void Hhomepage::addIssuesToList(QJsonDocument Allissues)
 
     // Holds commit information
     QString usrName[30];
-    QString description[30];
+    //QString description[30];
     QString id[30];
     QString key[30];
-    QString issueLinks[30];
+    //QString issueLinks[30];
 
     for(int i = 0; i < 30; i++)
     {
@@ -122,22 +122,16 @@ void Hhomepage::addIssuesToList(QJsonDocument Allissues)
 
         //value = JsonArray.first();
         usrName[i] = master["fields"].toObject()["creator"].toObject()["displayName"].toString();
-        description[i] = master["fields"].toObject()["description"].toString();
-        issueLinks[i] = master["fields"].toObject()["issueLinks"].toString();
+        //description[i] = master["fields"].toObject()["description"].toString();
+        //issueLinks[i] = master["fields"].toObject()["issueLinks"].toString();
         id[i] = master["id"].toString();
         key[i] = master["key"].toString();
 
-        ui->issue->addItem("User Name: " + usrName[i]);
-        ui->issue->addItem("Issue ID: " + id[i]);
-        ui->issue->addItem("Issue Links: " + issueLinks[i]);
-        ui->issue->addItem("Issue key: " + key[i]);
-        ui->issue->addItem("Description: " + description[i]);
+        ui->issue->addItem("User Name: " + usrName[i] + "\n" +
+                           "Issue ID: " + id[i] + "\n" +
+                           "Issue key: " + key[i]
+                           );
         ui->issue->addItem("--------------------------------------------------------------------------------------------");
-
-        qDebug() << "name: " << usrName[i];
-        qDebug() << "description: " << description[i];
-        qDebug() << "id: " << id[i];
-        qDebug() << "key: " << key[i];
 
         array.removeFirst();
     }
@@ -166,10 +160,11 @@ void Hhomepage::addCommitsToList(QJsonDocument Allcommits)
         name[i] = master["commit"].toObject()["author"].toObject()["name"].toString();
         dateCommited[i] = master["commit"].toObject()["author"].toObject()["date"].toString();
 
-        ui->code->addItem("Name: " + name[i]);
-        ui->code->addItem("Message: " + message[i]);
-        ui->code->addItem("Date Commited: " + dateCommited[i]);
-        ui->code->addItem("Url: " + html_url[i]);
+        ui->code->addItem("Name: " + name[i] + "\n" +
+                          "Message: " + message[i] + "\n" +
+                          "Date Commited: " + dateCommited[i] + "\n" +
+                          "Url: " + html_url[i]
+                          );
         ui->code->addItem("--------------------------------------------------------------------------------------------");
 
         qDebug() << "name: " << name[i];
@@ -209,5 +204,7 @@ QJsonDocument Hhomepage::loadJson(QString fileName)
 
 void Hhomepage::on_issue_doubleClicked(const QModelIndex &index)
 {
-
+    ViewIssue *V = new ViewIssue(this);
+    this ->hide();
+    V ->show();
 }
