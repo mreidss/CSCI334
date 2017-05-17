@@ -2,6 +2,7 @@
 #define HHOMEPAGE_H
 
 #include <QDialog>
+#include <QListWidgetItem>
 
 namespace Ui {
 class Hhomepage;
@@ -36,6 +37,7 @@ private slots:
 
 
     void on_issue_doubleClicked(const QModelIndex &index);
+    void on_issue_itemDoubleClicked(QListWidgetItem *item);
 
 private:
     Ui::Hhomepage *ui;

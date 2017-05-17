@@ -115,25 +115,32 @@ void Hhomepage::addIssuesToList(QJsonDocument Allissues)
     QString key[30];
     //QString issueLinks[30];
 
-    for(int i = 0; i < 30; i++)
+    if(!array.isEmpty())
     {
-        value = array.first();
-        QJsonObject master = value.toObject();
+        for(int i = 0; i < 30; i++)
+        {
+            value = array.first();
+            QJsonObject master = value.toObject();
 
-        //value = JsonArray.first();
-        usrName[i] = master["fields"].toObject()["creator"].toObject()["displayName"].toString();
-        //description[i] = master["fields"].toObject()["description"].toString();
-        //issueLinks[i] = master["fields"].toObject()["issueLinks"].toString();
-        id[i] = master["id"].toString();
-        key[i] = master["key"].toString();
+            //value = JsonArray.first();
+            usrName[i] = master["fields"].toObject()["creator"].toObject()["displayName"].toString();
+            //description[i] = master["fields"].toObject()["description"].toString();
+            //issueLinks[i] = master["fields"].toObject()["issueLinks"].toString();
+            id[i] = master["id"].toString();
+            key[i] = master["key"].toString();
 
-        ui->issue->addItem("User Name: " + usrName[i] + "\n" +
-                           "Issue ID: " + id[i] + "\n" +
-                           "Issue key: " + key[i]
-                           );
-        ui->issue->addItem("--------------------------------------------------------------------------------------------");
+            ui->issue->addItem("User Name: " + usrName[i] + "\n" +
+                               "Issue ID: " + id[i] + "\n" +
+                               "Issue key: " + key[i]
+                               );
+            ui->issue->addItem("--------------------------------------------------------------------------------------------");
 
-        array.removeFirst();
+            array.removeFirst();
+        }
+    }
+    else
+    {
+        ui->issue->addItem("Error: unable to load issues");
     }
 }
 
@@ -149,30 +156,31 @@ void Hhomepage::addCommitsToList(QJsonDocument Allcommits)
     QString name[30];
     QString dateCommited[30];
 
-    for(int i = 0; i < JsonArray.size(); i++)
+    if(!JsonArray.isEmpty())
     {
-        value = JsonArray.first();
-        QJsonObject master = value.toObject();
+        for(int i = 0; i < JsonArray.size(); i++)
+        {
+            value = JsonArray.first();
+            QJsonObject master = value.toObject();
 
-        // Retrieves info of 1 commit
-        html_url[i] = master["html_url"].toString();
-        message[i] = master["commit"].toObject()["message"].toString();
-        name[i] = master["commit"].toObject()["author"].toObject()["name"].toString();
-        dateCommited[i] = master["commit"].toObject()["author"].toObject()["date"].toString();
+            // Retrieves info of 1 commit
+            html_url[i] = master["html_url"].toString();
+            message[i] = master["commit"].toObject()["message"].toString();
+            name[i] = master["commit"].toObject()["author"].toObject()["name"].toString();
+            dateCommited[i] = master["commit"].toObject()["author"].toObject()["date"].toString();
 
-        ui->code->addItem("Name: " + name[i] + "\n" +
-                          "Message: " + message[i] + "\n" +
-                          "Date Commited: " + dateCommited[i] + "\n" +
-                          "Url: " + html_url[i]
-                          );
-        ui->code->addItem("--------------------------------------------------------------------------------------------");
+            ui->code->addItem("Name: " + name[i] + "\n" +
+                              "Message: " + message[i] + "\n" +
+                              "Date Commited: " + dateCommited[i] + "\n" +
+                              "Url: " + html_url[i]
+                              );
+            ui->code->addItem("--------------------------------------------------------------------------------------------");
 
-        qDebug() << "name: " << name[i];
-        qDebug() << "message: " << message[i];
-        qDebug() << "dateCommited: " << dateCommited[i];
-        qDebug() << "html_url: " << html_url[i];
-
-        JsonArray.removeFirst();
+            JsonArray.removeFirst();
+        }
+    }
+    else{
+        ui->code->addItem("Error: Unable to load Commits");
     }
 }
 
@@ -202,7 +210,8 @@ QJsonDocument Hhomepage::loadJson(QString fileName)
     return QJsonDocument().fromJson(jsonFile.readAll());
 }
 
-void Hhomepage::on_issue_doubleClicked(const QModelIndex &index)
+
+void Hhomepage::on_issue_itemDoubleClicked(QListWidgetItem *item)
 {
     ViewIssue *V = new ViewIssue(this);
     this ->hide();
