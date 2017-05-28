@@ -34,12 +34,13 @@ void Log_in::on_Login_clicked()
 
     ui->lblresult -> setText("Valid Username and Password");
     connClose();
-    Hhomepage * home = new Hhomepage(this);
+
+    /*Hhomepage * home = new Hhomepage(this);
     this -> hide();
-    home ->show();
+    home ->show();*/
 
     // Commented this block out to allow me to get to the homepage without having to login for now
-    /*
+
     QString Username,Password;
     Username = ui->txtUser -> text();
     Password = ui->txtPass -> text();
@@ -84,7 +85,6 @@ void Log_in::on_Login_clicked()
 
         }
     }
-    */
 }
 
 

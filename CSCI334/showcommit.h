@@ -12,7 +12,7 @@ class ShowCommit : public QDialog
     Q_OBJECT
 
 public:
-    explicit ShowCommit(QWidget *parent = 0);
+    explicit ShowCommit(QWidget *parent, QString issueID, QString JiraFileName);
     ~ShowCommit();
 
 private slots:

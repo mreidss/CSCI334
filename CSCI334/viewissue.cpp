@@ -15,11 +15,17 @@
 #include <QJsonObject>
 #include <QJsonParseError>
 
+QString id;
+QString File;
+
 ViewIssue::ViewIssue(QWidget *parent, QString issueID, QString JiraFileName) :
     QDialog(parent),
     ui(new Ui::ViewIssue)
 {
     ui->setupUi(this);
+
+    id = issueID;
+    File = JiraFileName;
 
     QFile jsonFile(JiraFileName);
     jsonFile.open(QFile::ReadOnly);
@@ -77,7 +83,7 @@ void ViewIssue::on_Back_clicked()
 
 void ViewIssue::on_Show_clicked()
 {
-    ShowCommit *S = new ShowCommit(this);
+    ShowCommit *S = new ShowCommit(this, id, File);
     this->hide();
     S->show();
 }

@@ -23,7 +23,7 @@ public:
     bool connOpen()
     {
         db = QSqlDatabase::addDatabase("QSQLITE");
-        db.setDatabaseName("C:/Users/yiduo/Documents/CSCI334/database/CSCI334.db");
+        db.setDatabaseName("C:/CSCI334.db");
         db.open();
         if(!db.isOpen())
         {
@@ -45,7 +45,6 @@ private slots:
     void on_Login_clicked();
 
     void on_close_clicked();
-
 
     void on_register_2_clicked();
 

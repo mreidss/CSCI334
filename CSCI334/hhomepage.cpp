@@ -3,6 +3,7 @@
 #include "log_in.h"
 #include "search.h"
 #include "viewissue.h"
+#include "viewcommit.h"
 #include "searchcommit.h"
 #include "searchjira.h"
 
@@ -192,7 +193,7 @@ QString Hhomepage::getApiJira(QString projName)
 {
     QString curlCommand;
     curlCommand = "https://issues.apache.org/jira/rest/api/2/search?jql=project=%22" + projName + "%22";
-    //             https://issues.apache.org/jira/rest/api/2/search?jql=project=%22OPENNLP%22
+    //  https://issues.apache.org/jira/rest/api/2/search?jql=project=%22OPENNLP%22
     // "https://jira.atlassian.com//rest/api/2/search?jql=project=%22" + projName + "%22";
     return curlCommand;
 }
@@ -214,6 +215,23 @@ void Hhomepage::on_issue_itemDoubleClicked(QListWidgetItem *item)
     qDebug() << "id: " << id;
 
     ViewIssue *V = new ViewIssue(this, id, JiraFileName);
-    this ->hide();
-    V ->show();
+    this->hide();
+    V->show();
+}
+
+void Hhomepage::on_code_itemDoubleClicked(QListWidgetItem *item)
+{
+    QString temp = item->text();
+    //QString id = temp.mid(3,8);
+
+    //qDebug() << "temp: " << temp;
+    //qDebug() << "id: " << id;
+
+    qDebug() << "test ";
+
+    viewCommit *VC = new viewCommit(this);
+    this->hide();
+    VC->show();
+
+    qDebug() << "test 2";
 }

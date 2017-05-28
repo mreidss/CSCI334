@@ -42,6 +42,8 @@ private slots:
 
     void on_issue_itemDoubleClicked(QListWidgetItem *item);
 
+    void on_code_itemDoubleClicked(QListWidgetItem *item);
+
 private:
     Ui::Hhomepage *ui;
 };
