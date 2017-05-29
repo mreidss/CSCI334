@@ -1,13 +1,13 @@
 #ifndef VIEWCOMMIT_H
 #define VIEWCOMMIT_H
 
-#include <QWidget>
+#include <QDialog>
 
 namespace Ui {
 class viewCommit;
 }
 
-class viewCommit : public QWidget
+class viewCommit : public QDialog
 {
     Q_OBJECT
 

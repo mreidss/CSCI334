@@ -1,0 +1,1188 @@
+[
+  {
+    "sha": "eea57697d90696b82d2092f0f0a6454dacc3fe89",
+    "commit": {
+      "author": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-05-28T23:57:51Z"
+      },
+      "committer": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-05-28T23:57:51Z"
+      },
+      "message": "added view commit",
+      "tree": {
+        "sha": "2caf082f7261cf47a99f4ea4cfa1a182e43eed00",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/git/trees/2caf082f7261cf47a99f4ea4cfa1a182e43eed00"
+      },
+      "url": "https://api.github.com/repos/mreidss/CSCI334/git/commits/eea57697d90696b82d2092f0f0a6454dacc3fe89",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mreidss/CSCI334/commits/eea57697d90696b82d2092f0f0a6454dacc3fe89",
+    "html_url": "https://github.com/mreidss/CSCI334/commit/eea57697d90696b82d2092f0f0a6454dacc3fe89",
+    "comments_url": "https://api.github.com/repos/mreidss/CSCI334/commits/eea57697d90696b82d2092f0f0a6454dacc3fe89/comments",
+    "author": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9d5a5ac90aa6c1cd015460006302f6fc860d04be",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/commits/9d5a5ac90aa6c1cd015460006302f6fc860d04be",
+        "html_url": "https://github.com/mreidss/CSCI334/commit/9d5a5ac90aa6c1cd015460006302f6fc860d04be"
+      }
+    ]
+  },
+  {
+    "sha": "9d5a5ac90aa6c1cd015460006302f6fc860d04be",
+    "commit": {
+      "author": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-05-17T07:07:42Z"
+      },
+      "committer": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-05-17T07:07:42Z"
+      },
+      "message": "added detailed view issue on double click",
+      "tree": {
+        "sha": "2ea2691f558699b36a2a6db38175130dda3982df",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/git/trees/2ea2691f558699b36a2a6db38175130dda3982df"
+      },
+      "url": "https://api.github.com/repos/mreidss/CSCI334/git/commits/9d5a5ac90aa6c1cd015460006302f6fc860d04be",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mreidss/CSCI334/commits/9d5a5ac90aa6c1cd015460006302f6fc860d04be",
+    "html_url": "https://github.com/mreidss/CSCI334/commit/9d5a5ac90aa6c1cd015460006302f6fc860d04be",
+    "comments_url": "https://api.github.com/repos/mreidss/CSCI334/commits/9d5a5ac90aa6c1cd015460006302f6fc860d04be/comments",
+    "author": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "95c2140c3ef4cde60e30e33b49c11c158f15c0ac",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/commits/95c2140c3ef4cde60e30e33b49c11c158f15c0ac",
+        "html_url": "https://github.com/mreidss/CSCI334/commit/95c2140c3ef4cde60e30e33b49c11c158f15c0ac"
+      }
+    ]
+  },
+  {
+    "sha": "95c2140c3ef4cde60e30e33b49c11c158f15c0ac",
+    "commit": {
+      "author": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-05-17T01:42:14Z"
+      },
+      "committer": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-05-17T01:42:14Z"
+      },
+      "message": "Added Error checking for loading files\n\nChecks error in loading of files so if file is unable to load an error\nmessage is printed out in the qlistwidget rather than nothing or random\noutput being printed.",
+      "tree": {
+        "sha": "fdd8213a61908c047983d92d1af626c6ee50b8fb",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/git/trees/fdd8213a61908c047983d92d1af626c6ee50b8fb"
+      },
+      "url": "https://api.github.com/repos/mreidss/CSCI334/git/commits/95c2140c3ef4cde60e30e33b49c11c158f15c0ac",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mreidss/CSCI334/commits/95c2140c3ef4cde60e30e33b49c11c158f15c0ac",
+    "html_url": "https://github.com/mreidss/CSCI334/commit/95c2140c3ef4cde60e30e33b49c11c158f15c0ac",
+    "comments_url": "https://api.github.com/repos/mreidss/CSCI334/commits/95c2140c3ef4cde60e30e33b49c11c158f15c0ac/comments",
+    "author": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c940fac7b5123843c365f2f3a757c31f8cf3bb23",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/commits/c940fac7b5123843c365f2f3a757c31f8cf3bb23",
+        "html_url": "https://github.com/mreidss/CSCI334/commit/c940fac7b5123843c365f2f3a757c31f8cf3bb23"
+      }
+    ]
+  },
+  {
+    "sha": "c940fac7b5123843c365f2f3a757c31f8cf3bb23",
+    "commit": {
+      "author": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-05-17T01:22:45Z"
+      },
+      "committer": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-05-17T01:22:45Z"
+      },
+      "message": "issues and commits print as a clump\n\nchanged the issues and commits so that they print as clumps relating to\nthe same commit/ issue",
+      "tree": {
+        "sha": "b57e9e04919107c65d89aedaa1b330a21c5dc100",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/git/trees/b57e9e04919107c65d89aedaa1b330a21c5dc100"
+      },
+      "url": "https://api.github.com/repos/mreidss/CSCI334/git/commits/c940fac7b5123843c365f2f3a757c31f8cf3bb23",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mreidss/CSCI334/commits/c940fac7b5123843c365f2f3a757c31f8cf3bb23",
+    "html_url": "https://github.com/mreidss/CSCI334/commit/c940fac7b5123843c365f2f3a757c31f8cf3bb23",
+    "comments_url": "https://api.github.com/repos/mreidss/CSCI334/commits/c940fac7b5123843c365f2f3a757c31f8cf3bb23/comments",
+    "author": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7a918b9fe24271a2f8c9dde7e4af586d9eb18624",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/commits/7a918b9fe24271a2f8c9dde7e4af586d9eb18624",
+        "html_url": "https://github.com/mreidss/CSCI334/commit/7a918b9fe24271a2f8c9dde7e4af586d9eb18624"
+      }
+    ]
+  },
+  {
+    "sha": "7a918b9fe24271a2f8c9dde7e4af586d9eb18624",
+    "commit": {
+      "author": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-05-17T01:12:49Z"
+      },
+      "committer": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-05-17T01:12:49Z"
+      },
+      "message": "added curl",
+      "tree": {
+        "sha": "eee53263041554f382d6bed285a801b79f366b6f",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/git/trees/eee53263041554f382d6bed285a801b79f366b6f"
+      },
+      "url": "https://api.github.com/repos/mreidss/CSCI334/git/commits/7a918b9fe24271a2f8c9dde7e4af586d9eb18624",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mreidss/CSCI334/commits/7a918b9fe24271a2f8c9dde7e4af586d9eb18624",
+    "html_url": "https://github.com/mreidss/CSCI334/commit/7a918b9fe24271a2f8c9dde7e4af586d9eb18624",
+    "comments_url": "https://api.github.com/repos/mreidss/CSCI334/commits/7a918b9fe24271a2f8c9dde7e4af586d9eb18624/comments",
+    "author": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cf0f13c88ef7279afad42a3447a36e66ca02592d",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/commits/cf0f13c88ef7279afad42a3447a36e66ca02592d",
+        "html_url": "https://github.com/mreidss/CSCI334/commit/cf0f13c88ef7279afad42a3447a36e66ca02592d"
+      }
+    ]
+  },
+  {
+    "sha": "cf0f13c88ef7279afad42a3447a36e66ca02592d",
+    "commit": {
+      "author": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-05-15T02:32:48Z"
+      },
+      "committer": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-05-15T02:32:48Z"
+      },
+      "message": "fixed issue where only one could be searched at once\n\nPrior to this commits could be searched or JIRA Issues could be searched\nbut not both at the same time, this was fixed by confining the seperate\nclasses into on Qinput dialog.",
+      "tree": {
+        "sha": "99d57ec0b58c163b8d4decd22ef1bade795a3da5",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/git/trees/99d57ec0b58c163b8d4decd22ef1bade795a3da5"
+      },
+      "url": "https://api.github.com/repos/mreidss/CSCI334/git/commits/cf0f13c88ef7279afad42a3447a36e66ca02592d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mreidss/CSCI334/commits/cf0f13c88ef7279afad42a3447a36e66ca02592d",
+    "html_url": "https://github.com/mreidss/CSCI334/commit/cf0f13c88ef7279afad42a3447a36e66ca02592d",
+    "comments_url": "https://api.github.com/repos/mreidss/CSCI334/commits/cf0f13c88ef7279afad42a3447a36e66ca02592d/comments",
+    "author": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "019a6ef9a2a437dde1f55064fde953ee07562ab3",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/commits/019a6ef9a2a437dde1f55064fde953ee07562ab3",
+        "html_url": "https://github.com/mreidss/CSCI334/commit/019a6ef9a2a437dde1f55064fde953ee07562ab3"
+      }
+    ]
+  },
+  {
+    "sha": "019a6ef9a2a437dde1f55064fde953ee07562ab3",
+    "commit": {
+      "author": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-05-10T06:30:00Z"
+      },
+      "committer": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-05-10T06:30:00Z"
+      },
+      "message": "api's working and printing to GUI\n\nOur project now connects to Github and JIRA and creates JSON files, from\nthese files we can access all information relating to issues and\neverything relating to GITHUB commits,\n\nissues : Github commits don't display code yet",
+      "tree": {
+        "sha": "10671b289d26703e165d474fb12aa8dda619693e",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/git/trees/10671b289d26703e165d474fb12aa8dda619693e"
+      },
+      "url": "https://api.github.com/repos/mreidss/CSCI334/git/commits/019a6ef9a2a437dde1f55064fde953ee07562ab3",
+      "comment_count": 1
+    },
+    "url": "https://api.github.com/repos/mreidss/CSCI334/commits/019a6ef9a2a437dde1f55064fde953ee07562ab3",
+    "html_url": "https://github.com/mreidss/CSCI334/commit/019a6ef9a2a437dde1f55064fde953ee07562ab3",
+    "comments_url": "https://api.github.com/repos/mreidss/CSCI334/commits/019a6ef9a2a437dde1f55064fde953ee07562ab3/comments",
+    "author": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c99cff29d7fdccea884031b136c7ed9e22451304",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/commits/c99cff29d7fdccea884031b136c7ed9e22451304",
+        "html_url": "https://github.com/mreidss/CSCI334/commit/c99cff29d7fdccea884031b136c7ed9e22451304"
+      }
+    ]
+  },
+  {
+    "sha": "c99cff29d7fdccea884031b136c7ed9e22451304",
+    "commit": {
+      "author": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-05-09T22:32:15Z"
+      },
+      "committer": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-05-09T22:32:15Z"
+      },
+      "message": "GUI displays Commits\n\nThe homepage GUI is created from the search commit widget and I'm pretty\nsure this will have to be changed because it will only show commits and\nwhen JIRA issues are added it will only show issues.",
+      "tree": {
+        "sha": "9c288f4a5ece0e1ce2eb101704dc02e8c646073d",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/git/trees/9c288f4a5ece0e1ce2eb101704dc02e8c646073d"
+      },
+      "url": "https://api.github.com/repos/mreidss/CSCI334/git/commits/c99cff29d7fdccea884031b136c7ed9e22451304",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mreidss/CSCI334/commits/c99cff29d7fdccea884031b136c7ed9e22451304",
+    "html_url": "https://github.com/mreidss/CSCI334/commit/c99cff29d7fdccea884031b136c7ed9e22451304",
+    "comments_url": "https://api.github.com/repos/mreidss/CSCI334/commits/c99cff29d7fdccea884031b136c7ed9e22451304/comments",
+    "author": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "635c12adfe0aa94ef0e4c0b96e90051799d31a56",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/commits/635c12adfe0aa94ef0e4c0b96e90051799d31a56",
+        "html_url": "https://github.com/mreidss/CSCI334/commit/635c12adfe0aa94ef0e4c0b96e90051799d31a56"
+      }
+    ]
+  },
+  {
+    "sha": "635c12adfe0aa94ef0e4c0b96e90051799d31a56",
+    "commit": {
+      "author": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-05-09T14:03:54Z"
+      },
+      "committer": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-05-09T14:03:54Z"
+      },
+      "message": "Updated api usage (not Displaying on GUI)\n\neverything is working except it's not displaying on the GUI",
+      "tree": {
+        "sha": "aba224053b48271c9d6229f16a3fa6e5c2ec98e2",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/git/trees/aba224053b48271c9d6229f16a3fa6e5c2ec98e2"
+      },
+      "url": "https://api.github.com/repos/mreidss/CSCI334/git/commits/635c12adfe0aa94ef0e4c0b96e90051799d31a56",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mreidss/CSCI334/commits/635c12adfe0aa94ef0e4c0b96e90051799d31a56",
+    "html_url": "https://github.com/mreidss/CSCI334/commit/635c12adfe0aa94ef0e4c0b96e90051799d31a56",
+    "comments_url": "https://api.github.com/repos/mreidss/CSCI334/commits/635c12adfe0aa94ef0e4c0b96e90051799d31a56/comments",
+    "author": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bc529a01885b55275205734f9a1e50a98767bf31",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/commits/bc529a01885b55275205734f9a1e50a98767bf31",
+        "html_url": "https://github.com/mreidss/CSCI334/commit/bc529a01885b55275205734f9a1e50a98767bf31"
+      }
+    ]
+  },
+  {
+    "sha": "bc529a01885b55275205734f9a1e50a98767bf31",
+    "commit": {
+      "author": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-05-07T04:20:53Z"
+      },
+      "committer": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-05-07T04:20:53Z"
+      },
+      "message": "Added a Search commit\n\nThis is used temporarily for retrieving a github repository (not\ncompletly finished)",
+      "tree": {
+        "sha": "525b31100b2e4d243fc64f60ba8eef34215e5c4b",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/git/trees/525b31100b2e4d243fc64f60ba8eef34215e5c4b"
+      },
+      "url": "https://api.github.com/repos/mreidss/CSCI334/git/commits/bc529a01885b55275205734f9a1e50a98767bf31",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mreidss/CSCI334/commits/bc529a01885b55275205734f9a1e50a98767bf31",
+    "html_url": "https://github.com/mreidss/CSCI334/commit/bc529a01885b55275205734f9a1e50a98767bf31",
+    "comments_url": "https://api.github.com/repos/mreidss/CSCI334/commits/bc529a01885b55275205734f9a1e50a98767bf31/comments",
+    "author": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ad3eb85d54fdf5240cbdd5af3f4f5c2596ea2517",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/commits/ad3eb85d54fdf5240cbdd5af3f4f5c2596ea2517",
+        "html_url": "https://github.com/mreidss/CSCI334/commit/ad3eb85d54fdf5240cbdd5af3f4f5c2596ea2517"
+      }
+    ]
+  },
+  {
+    "sha": "ad3eb85d54fdf5240cbdd5af3f4f5c2596ea2517",
+    "commit": {
+      "author": {
+        "name": "yc118uow",
+        "email": "ycui118@gmail.com",
+        "date": "2017-05-06T09:49:21Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-05-06T09:49:21Z"
+      },
+      "message": "Hi\n\nThis is all code for interface",
+      "tree": {
+        "sha": "d61553fe86afed88b460fc9f2eedd28b57594d7d",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/git/trees/d61553fe86afed88b460fc9f2eedd28b57594d7d"
+      },
+      "url": "https://api.github.com/repos/mreidss/CSCI334/git/commits/ad3eb85d54fdf5240cbdd5af3f4f5c2596ea2517",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mreidss/CSCI334/commits/ad3eb85d54fdf5240cbdd5af3f4f5c2596ea2517",
+    "html_url": "https://github.com/mreidss/CSCI334/commit/ad3eb85d54fdf5240cbdd5af3f4f5c2596ea2517",
+    "comments_url": "https://api.github.com/repos/mreidss/CSCI334/commits/ad3eb85d54fdf5240cbdd5af3f4f5c2596ea2517/comments",
+    "author": {
+      "login": "yc118uow",
+      "id": 26268065,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/26268065?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yc118uow",
+      "html_url": "https://github.com/yc118uow",
+      "followers_url": "https://api.github.com/users/yc118uow/followers",
+      "following_url": "https://api.github.com/users/yc118uow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yc118uow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yc118uow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yc118uow/subscriptions",
+      "organizations_url": "https://api.github.com/users/yc118uow/orgs",
+      "repos_url": "https://api.github.com/users/yc118uow/repos",
+      "events_url": "https://api.github.com/users/yc118uow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yc118uow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9d0f991b8b5a4716390d2790f644049f10eeecea",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/commits/9d0f991b8b5a4716390d2790f644049f10eeecea",
+        "html_url": "https://github.com/mreidss/CSCI334/commit/9d0f991b8b5a4716390d2790f644049f10eeecea"
+      }
+    ]
+  },
+  {
+    "sha": "9d0f991b8b5a4716390d2790f644049f10eeecea",
+    "commit": {
+      "author": {
+        "name": "yl955",
+        "email": "yl955@uowmail.edu.au",
+        "date": "2017-03-08T05:41:00Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-03-08T05:41:00Z"
+      },
+      "message": "kln\n\ni deleted this becA",
+      "tree": {
+        "sha": "2b62cf72ca80ad8bcf8ae6560415c786a362f535",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/git/trees/2b62cf72ca80ad8bcf8ae6560415c786a362f535"
+      },
+      "url": "https://api.github.com/repos/mreidss/CSCI334/git/commits/9d0f991b8b5a4716390d2790f644049f10eeecea",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mreidss/CSCI334/commits/9d0f991b8b5a4716390d2790f644049f10eeecea",
+    "html_url": "https://github.com/mreidss/CSCI334/commit/9d0f991b8b5a4716390d2790f644049f10eeecea",
+    "comments_url": "https://api.github.com/repos/mreidss/CSCI334/commits/9d0f991b8b5a4716390d2790f644049f10eeecea/comments",
+    "author": {
+      "login": "yl955",
+      "id": 26267952,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/26267952?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yl955",
+      "html_url": "https://github.com/yl955",
+      "followers_url": "https://api.github.com/users/yl955/followers",
+      "following_url": "https://api.github.com/users/yl955/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yl955/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yl955/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yl955/subscriptions",
+      "organizations_url": "https://api.github.com/users/yl955/orgs",
+      "repos_url": "https://api.github.com/users/yl955/repos",
+      "events_url": "https://api.github.com/users/yl955/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yl955/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "281c791fc4fb6926a50a9b1551215ecb306b3661",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/commits/281c791fc4fb6926a50a9b1551215ecb306b3661",
+        "html_url": "https://github.com/mreidss/CSCI334/commit/281c791fc4fb6926a50a9b1551215ecb306b3661"
+      }
+    ]
+  },
+  {
+    "sha": "281c791fc4fb6926a50a9b1551215ecb306b3661",
+    "commit": {
+      "author": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-03-08T05:39:25Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-03-08T05:39:25Z"
+      },
+      "message": "deleted\n\nI did this because...",
+      "tree": {
+        "sha": "b9fb8ad1f215acf1cf3e05bd3c4baad16e29da77",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/git/trees/b9fb8ad1f215acf1cf3e05bd3c4baad16e29da77"
+      },
+      "url": "https://api.github.com/repos/mreidss/CSCI334/git/commits/281c791fc4fb6926a50a9b1551215ecb306b3661",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mreidss/CSCI334/commits/281c791fc4fb6926a50a9b1551215ecb306b3661",
+    "html_url": "https://github.com/mreidss/CSCI334/commit/281c791fc4fb6926a50a9b1551215ecb306b3661",
+    "comments_url": "https://api.github.com/repos/mreidss/CSCI334/commits/281c791fc4fb6926a50a9b1551215ecb306b3661/comments",
+    "author": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2f37b410eaf41de91581baf81d1b82aab35c67e6",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/commits/2f37b410eaf41de91581baf81d1b82aab35c67e6",
+        "html_url": "https://github.com/mreidss/CSCI334/commit/2f37b410eaf41de91581baf81d1b82aab35c67e6"
+      }
+    ]
+  },
+  {
+    "sha": "2f37b410eaf41de91581baf81d1b82aab35c67e6",
+    "commit": {
+      "author": {
+        "name": "yl955",
+        "email": "yl955@uowmail.edu.au",
+        "date": "2017-03-08T05:36:20Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-03-08T05:36:20Z"
+      },
+      "message": "Update",
+      "tree": {
+        "sha": "3f1ab671f875425fc1fba845fd4a622e44ff1e49",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/git/trees/3f1ab671f875425fc1fba845fd4a622e44ff1e49"
+      },
+      "url": "https://api.github.com/repos/mreidss/CSCI334/git/commits/2f37b410eaf41de91581baf81d1b82aab35c67e6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mreidss/CSCI334/commits/2f37b410eaf41de91581baf81d1b82aab35c67e6",
+    "html_url": "https://github.com/mreidss/CSCI334/commit/2f37b410eaf41de91581baf81d1b82aab35c67e6",
+    "comments_url": "https://api.github.com/repos/mreidss/CSCI334/commits/2f37b410eaf41de91581baf81d1b82aab35c67e6/comments",
+    "author": {
+      "login": "yl955",
+      "id": 26267952,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/26267952?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yl955",
+      "html_url": "https://github.com/yl955",
+      "followers_url": "https://api.github.com/users/yl955/followers",
+      "following_url": "https://api.github.com/users/yl955/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yl955/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yl955/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yl955/subscriptions",
+      "organizations_url": "https://api.github.com/users/yl955/orgs",
+      "repos_url": "https://api.github.com/users/yl955/repos",
+      "events_url": "https://api.github.com/users/yl955/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yl955/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e7e175d06a32f94fe693da4d6d51d1a4c5fd58a9",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/commits/e7e175d06a32f94fe693da4d6d51d1a4c5fd58a9",
+        "html_url": "https://github.com/mreidss/CSCI334/commit/e7e175d06a32f94fe693da4d6d51d1a4c5fd58a9"
+      }
+    ]
+  },
+  {
+    "sha": "e7e175d06a32f94fe693da4d6d51d1a4c5fd58a9",
+    "commit": {
+      "author": {
+        "name": "yc118uow",
+        "email": "ycui118@gmail.com",
+        "date": "2017-03-08T05:35:46Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-03-08T05:35:46Z"
+      },
+      "message": "Update test",
+      "tree": {
+        "sha": "d8d46b1fcc6e65d7ef941e1c4029bdf32f707cc4",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/git/trees/d8d46b1fcc6e65d7ef941e1c4029bdf32f707cc4"
+      },
+      "url": "https://api.github.com/repos/mreidss/CSCI334/git/commits/e7e175d06a32f94fe693da4d6d51d1a4c5fd58a9",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mreidss/CSCI334/commits/e7e175d06a32f94fe693da4d6d51d1a4c5fd58a9",
+    "html_url": "https://github.com/mreidss/CSCI334/commit/e7e175d06a32f94fe693da4d6d51d1a4c5fd58a9",
+    "comments_url": "https://api.github.com/repos/mreidss/CSCI334/commits/e7e175d06a32f94fe693da4d6d51d1a4c5fd58a9/comments",
+    "author": {
+      "login": "yc118uow",
+      "id": 26268065,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/26268065?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yc118uow",
+      "html_url": "https://github.com/yc118uow",
+      "followers_url": "https://api.github.com/users/yc118uow/followers",
+      "following_url": "https://api.github.com/users/yc118uow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yc118uow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yc118uow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yc118uow/subscriptions",
+      "organizations_url": "https://api.github.com/users/yc118uow/orgs",
+      "repos_url": "https://api.github.com/users/yc118uow/repos",
+      "events_url": "https://api.github.com/users/yc118uow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yc118uow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "afae9ef2f3ca66db17df562a92c5b57dd786c559",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/commits/afae9ef2f3ca66db17df562a92c5b57dd786c559",
+        "html_url": "https://github.com/mreidss/CSCI334/commit/afae9ef2f3ca66db17df562a92c5b57dd786c559"
+      }
+    ]
+  },
+  {
+    "sha": "afae9ef2f3ca66db17df562a92c5b57dd786c559",
+    "commit": {
+      "author": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-03-08T05:35:04Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-03-08T05:35:04Z"
+      },
+      "message": "Create test",
+      "tree": {
+        "sha": "4e275678d256ba5eae0d65d28d23fb4de93d4723",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/git/trees/4e275678d256ba5eae0d65d28d23fb4de93d4723"
+      },
+      "url": "https://api.github.com/repos/mreidss/CSCI334/git/commits/afae9ef2f3ca66db17df562a92c5b57dd786c559",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mreidss/CSCI334/commits/afae9ef2f3ca66db17df562a92c5b57dd786c559",
+    "html_url": "https://github.com/mreidss/CSCI334/commit/afae9ef2f3ca66db17df562a92c5b57dd786c559",
+    "comments_url": "https://api.github.com/repos/mreidss/CSCI334/commits/afae9ef2f3ca66db17df562a92c5b57dd786c559/comments",
+    "author": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e041c74dad3d8dca0528ce1e4192786cefe662d8",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/commits/e041c74dad3d8dca0528ce1e4192786cefe662d8",
+        "html_url": "https://github.com/mreidss/CSCI334/commit/e041c74dad3d8dca0528ce1e4192786cefe662d8"
+      }
+    ]
+  },
+  {
+    "sha": "e041c74dad3d8dca0528ce1e4192786cefe662d8",
+    "commit": {
+      "author": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-03-08T05:33:53Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-03-08T05:33:53Z"
+      },
+      "message": "Create README.md",
+      "tree": {
+        "sha": "532f421f510319cf6b9a5121bdf1a0b44b64f67b",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/git/trees/532f421f510319cf6b9a5121bdf1a0b44b64f67b"
+      },
+      "url": "https://api.github.com/repos/mreidss/CSCI334/git/commits/e041c74dad3d8dca0528ce1e4192786cefe662d8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mreidss/CSCI334/commits/e041c74dad3d8dca0528ce1e4192786cefe662d8",
+    "html_url": "https://github.com/mreidss/CSCI334/commit/e041c74dad3d8dca0528ce1e4192786cefe662d8",
+    "comments_url": "https://api.github.com/repos/mreidss/CSCI334/commits/e041c74dad3d8dca0528ce1e4192786cefe662d8/comments",
+    "author": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+
+    ]
+  }
+]

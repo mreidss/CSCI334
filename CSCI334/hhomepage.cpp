@@ -56,7 +56,9 @@ void Hhomepage::on_Vissue_clicked()
 
 void Hhomepage::on_commitButton_clicked()
 {
-    QString link = QInputDialog::getText(this, "GitHub Website", "Input a Github Website:");
+    QString link = QInputDialog::getText(this, "GitHub Website", "Input a Github Website:",
+                                         QLineEdit::Normal, "https://github.com/mreidss/CSCI334");
+
 
     QString curlCommand = splitWebsiteGit(link);
     QString curl = "curl " + curlCommand;
@@ -74,7 +76,8 @@ void Hhomepage::on_commitButton_clicked()
 
 void Hhomepage::on_issuebButton_clicked()
 {
-    QString projName = QInputDialog::getText(this, "Jira Project", "Input a JIRA Project:");
+    QString projName = QInputDialog::getText(this, "Jira Project", "Input a JIRA Project:",
+                                             QLineEdit::Normal, "OPENNLP");
 
     QString curlCommand = getApiJira(projName);
     QString curl = "curl " + curlCommand;
@@ -211,9 +214,6 @@ void Hhomepage::on_issue_itemDoubleClicked(QListWidgetItem *item)
     QString temp = item->text();
     QString id = temp.mid(3,8);
 
-    qDebug() << "temp: " << temp;
-    qDebug() << "id: " << id;
-
     ViewIssue *V = new ViewIssue(this, id, JiraFileName);
     this->hide();
     V->show();
@@ -222,16 +222,9 @@ void Hhomepage::on_issue_itemDoubleClicked(QListWidgetItem *item)
 void Hhomepage::on_code_itemDoubleClicked(QListWidgetItem *item)
 {
     QString temp = item->text();
-    //QString id = temp.mid(3,8);
-
-    //qDebug() << "temp: " << temp;
-    //qDebug() << "id: " << id;
-
-    qDebug() << "test ";
+    QString id = temp.mid(3,8);
 
     viewCommit *VC = new viewCommit(this);
     this->hide();
     VC->show();
-
-    qDebug() << "test 2";
 }

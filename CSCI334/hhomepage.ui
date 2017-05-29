@@ -46,20 +46,6 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="Vissue">
-        <property name="text">
-         <string>view issue</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="Vcode">
-        <property name="text">
-         <string>view code</string>
-        </property>
-       </widget>
-      </item>
-      <item>
        <widget class="QPushButton" name="search">
         <property name="text">
          <string>search</string>

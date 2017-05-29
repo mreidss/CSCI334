@@ -3,7 +3,7 @@
 #include "ui_viewcommit.h"
 
 viewCommit::viewCommit(QWidget *parent) :
-    QWidget(parent),
+    QDialog(parent),
     ui(new Ui::viewCommit)
 {
     ui->setupUi(this);
