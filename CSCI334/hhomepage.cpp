@@ -99,7 +99,7 @@ void Hhomepage::addIssuesToList()
     // Json array of the whole json doc
     QJsonObject JsonObject = Allissues.object();
     QJsonValue temp = JsonObject.value("issues");
-    QJsonValue total = JsonObject.value("total");
+    //QJsonValue total = JsonObject.value("total");
     QJsonArray array = temp.toArray();
     QJsonValue value;
 
@@ -138,6 +138,8 @@ void Hhomepage::addIssuesToList()
         ui->issue->addItem("Error: unable to load issues");
     }
 }
+
+ // Testing if I can print changes to a file
 
 void Hhomepage::addCommitsToList()
 {
