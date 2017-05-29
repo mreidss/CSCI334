@@ -1,0 +1,149 @@
+{
+  "sha": "9d5a5ac90aa6c1cd015460006302f6fc860d04be",
+  "commit": {
+    "author": {
+      "name": "mreidss",
+      "email": "mitchreidy@gmail.com",
+      "date": "2017-05-17T07:07:42Z"
+    },
+    "committer": {
+      "name": "mreidss",
+      "email": "mitchreidy@gmail.com",
+      "date": "2017-05-17T07:07:42Z"
+    },
+    "message": "added detailed view issue on double click",
+    "tree": {
+      "sha": "2ea2691f558699b36a2a6db38175130dda3982df",
+      "url": "https://api.github.com/repos/mreidss/CSCI334/git/trees/2ea2691f558699b36a2a6db38175130dda3982df"
+    },
+    "url": "https://api.github.com/repos/mreidss/CSCI334/git/commits/9d5a5ac90aa6c1cd015460006302f6fc860d04be",
+    "comment_count": 0
+  },
+  "url": "https://api.github.com/repos/mreidss/CSCI334/commits/9d5a5ac90aa6c1cd015460006302f6fc860d04be",
+  "html_url": "https://github.com/mreidss/CSCI334/commit/9d5a5ac90aa6c1cd015460006302f6fc860d04be",
+  "comments_url": "https://api.github.com/repos/mreidss/CSCI334/commits/9d5a5ac90aa6c1cd015460006302f6fc860d04be/comments",
+  "author": {
+    "login": "mreidss",
+    "id": 19317685,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/mreidss",
+    "html_url": "https://github.com/mreidss",
+    "followers_url": "https://api.github.com/users/mreidss/followers",
+    "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+    "organizations_url": "https://api.github.com/users/mreidss/orgs",
+    "repos_url": "https://api.github.com/users/mreidss/repos",
+    "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/mreidss/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "mreidss",
+    "id": 19317685,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/mreidss",
+    "html_url": "https://github.com/mreidss",
+    "followers_url": "https://api.github.com/users/mreidss/followers",
+    "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+    "organizations_url": "https://api.github.com/users/mreidss/orgs",
+    "repos_url": "https://api.github.com/users/mreidss/repos",
+    "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/mreidss/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "95c2140c3ef4cde60e30e33b49c11c158f15c0ac",
+      "url": "https://api.github.com/repos/mreidss/CSCI334/commits/95c2140c3ef4cde60e30e33b49c11c158f15c0ac",
+      "html_url": "https://github.com/mreidss/CSCI334/commit/95c2140c3ef4cde60e30e33b49c11c158f15c0ac"
+    }
+  ],
+  "stats": {
+    "total": 318,
+    "additions": 201,
+    "deletions": 117
+  },
+  "files": [
+    {
+      "sha": "c152d509864505e335553fdadcb039f0f1fcb726",
+      "filename": "CSCI334/hhomepage.cpp",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 28,
+      "changes": 56,
+      "blob_url": "https://github.com/mreidss/CSCI334/blob/9d5a5ac90aa6c1cd015460006302f6fc860d04be/CSCI334/hhomepage.cpp",
+      "raw_url": "https://github.com/mreidss/CSCI334/raw/9d5a5ac90aa6c1cd015460006302f6fc860d04be/CSCI334/hhomepage.cpp",
+      "contents_url": "https://api.github.com/repos/mreidss/CSCI334/contents/CSCI334/hhomepage.cpp?ref=9d5a5ac90aa6c1cd015460006302f6fc860d04be",
+      "patch": "@@ -17,6 +17,9 @@\n #include <QJsonObject>\r\n #include <QJsonParseError>\r\n \r\n+QString Hhomepage::gitFileName = \"github.json\";\r\n+QString Hhomepage::JiraFileName = \"Jira.json\";\r\n+\r\n Hhomepage::Hhomepage(QWidget *parent) :\r\n     QDialog(parent),\r\n     ui(new Ui::Hhomepage)\r\n@@ -45,36 +48,26 @@ void Hhomepage::on_search_clicked()\n \r\n void Hhomepage::on_Vissue_clicked()\r\n {\r\n-    ViewIssue *V = new ViewIssue(this);\r\n-    this ->hide();\r\n-    V ->show();\r\n+    //ViewIssue *V = new ViewIssue(this);\r\n+    //this ->hide();\r\n+    //V ->show();\r\n }\r\n \r\n void Hhomepage::on_commitButton_clicked()\r\n {\r\n-    //searchCommit *s = new searchCommit(this);\r\n-    //this->hide();\r\n-    //s->show();\r\n-\r\n-    //QString link = this->ui->gitWebsite->text();\r\n     QString link = QInputDialog::getText(this, \"GitHub Website\", \"Input a Github Website:\");\r\n \r\n     QString curlCommand = splitWebsiteGit(link);\r\n     QString curl = \"curl \" + curlCommand;\r\n     qDebug() << \"curl: \" << curl ;\r\n \r\n-    QString filename = \"github.json\";\r\n-\r\n     // Runs Curl Command and outputs it into a JSON file\r\n     QProcess process;\r\n-    process.setStandardOutputFile(filename);\r\n+    process.setStandardOutputFile(gitFileName);\r\n     process.start(curl);\r\n     process.waitForFinished(); // will wait forever until finished\r\n \r\n-    QJsonDocument jsonDoc = loadJson(filename);\r\n-    //QJsonObject jsonObj = jsonDoc.object();\r\n-\r\n-    addCommitsToList(jsonDoc);\r\n+    addCommitsToList();\r\n }\r\n \r\n \r\n@@ -86,21 +79,19 @@ void Hhomepage::on_issuebButton_clicked()\n     QString curl = \"curl \" + curlCommand;\r\n     qDebug() << \"curl: \" << curl ;\r\n \r\n-    QString filename = \"Jira.json\";\r\n-\r\n     // Runs Curl Command and outputs it into a JSON file\r\n     QProcess process;\r\n-    process.setStandardOutputFile(filename);\r\n+    process.setStandardOutputFile(JiraFileName);\r\n     process.start(curl);\r\n     process.waitForFinished(); // will wait forever until finished\r\n \r\n-    QJsonDocument jsonDoc = loadJson(filename);\r\n-\r\n-    addIssuesToList(jsonDoc);\r\n+    addIssuesToList();\r\n }\r\n \r\n-void Hhomepage::addIssuesToList(QJsonDocument Allissues)\r\n+void Hhomepage::addIssuesToList()\r\n {\r\n+    QJsonDocument Allissues = loadJson(JiraFileName);\r\n+\r\n     // Json array of the whole json doc\r\n     QJsonObject JsonObject = Allissues.object();\r\n     QJsonValue temp = JsonObject.value(\"issues\");\r\n@@ -129,8 +120,8 @@ void Hhomepage::addIssuesToList(QJsonDocument Allissues)\n             id[i] = master[\"id\"].toString();\r\n             key[i] = master[\"key\"].toString();\r\n \r\n-            ui->issue->addItem(\"User Name: \" + usrName[i] + \"\\n\" +\r\n-                               \"Issue ID: \" + id[i] + \"\\n\" +\r\n+            ui->issue->addItem(\"ID:\" + id[i] + \"\\n\" +\r\n+                               \"User Name: \" + usrName[i] + \"\\n\" +\r\n                                \"Issue key: \" + key[i]\r\n                                );\r\n             ui->issue->addItem(\"--------------------------------------------------------------------------------------------\");\r\n@@ -144,8 +135,10 @@ void Hhomepage::addIssuesToList(QJsonDocument Allissues)\n     }\r\n }\r\n \r\n-void Hhomepage::addCommitsToList(QJsonDocument Allcommits)\r\n+void Hhomepage::addCommitsToList()\r\n {\r\n+    QJsonDocument Allcommits = loadJson(gitFileName);\r\n+\r\n     // Json array of the whole json doc\r\n     QJsonArray JsonArray = Allcommits.array();\r\n     QJsonValue value;\r\n@@ -198,7 +191,9 @@ QString Hhomepage::splitWebsiteGit(QString link)\n QString Hhomepage::getApiJira(QString projName)\r\n {\r\n     QString curlCommand;\r\n-    curlCommand = \"https://jira.atlassian.com//rest/api/2/search?jql=project=%22\" + projName + \"%22\";\r\n+    curlCommand = \"https://issues.apache.org/jira/rest/api/2/search?jql=project=%22\" + projName + \"%22\";\r\n+    //             https://issues.apache.org/jira/rest/api/2/search?jql=project=%22OPENNLP%22\r\n+    // \"https://jira.atlassian.com//rest/api/2/search?jql=project=%22\" + projName + \"%22\";\r\n     return curlCommand;\r\n }\r\n \r\n@@ -210,10 +205,15 @@ QJsonDocument Hhomepage::loadJson(QString fileName)\n     return QJsonDocument().fromJson(jsonFile.readAll());\r\n }\r\n \r\n-\r\n void Hhomepage::on_issue_itemDoubleClicked(QListWidgetItem *item)\r\n {\r\n-    ViewIssue *V = new ViewIssue(this);\r\n+    QString temp = item->text();\r\n+    QString id = temp.mid(3,8);\r\n+\r\n+    qDebug() << \"temp: \" << temp;\r\n+    qDebug() << \"id: \" << id;\r\n+\r\n+    ViewIssue *V = new ViewIssue(this, id, JiraFileName);\r\n     this ->hide();\r\n     V ->show();\r\n }\r"
+    },
+    {
+      "sha": "3f8976f9faf3ebd98c21ad793fb4864d3b3d718b",
+      "filename": "CSCI334/hhomepage.h",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 10,
+      "changes": 23,
+      "blob_url": "https://github.com/mreidss/CSCI334/blob/9d5a5ac90aa6c1cd015460006302f6fc860d04be/CSCI334/hhomepage.h",
+      "raw_url": "https://github.com/mreidss/CSCI334/raw/9d5a5ac90aa6c1cd015460006302f6fc860d04be/CSCI334/hhomepage.h",
+      "contents_url": "https://api.github.com/repos/mreidss/CSCI334/contents/CSCI334/hhomepage.h?ref=9d5a5ac90aa6c1cd015460006302f6fc860d04be",
+      "patch": "@@ -15,7 +15,19 @@ class Hhomepage : public QDialog\n public:\r\n     explicit Hhomepage(QWidget *parent = 0);\r\n     ~Hhomepage();\r\n-    void addIssuesToList(QJsonDocument issues);\r\n+\r\n+    static QString gitFileName;\r\n+    static QString JiraFileName;\r\n+\r\n+    QString splitWebsiteGit(QString);\r\n+    QString getApiJira(QString projName);\r\n+    QJsonDocument loadJson(QString fileName);\r\n+\r\n+    void addCommitsToList();\r\n+    void addIssuesToList();\r\n+\r\n+    void rePrintCommits();\r\n+    void rePrintIssues();\r\n \r\n private slots:\r\n     void on_Log_out_clicked();\r\n@@ -28,15 +40,6 @@ private slots:\n \r\n     void on_issuebButton_clicked();\r\n \r\n-    QString splitWebsiteGit(QString);\r\n-    QString getApiJira(QString projName);\r\n-    QJsonDocument loadJson(QString fileName);\r\n-\r\n-    void addCommitsToList(QJsonDocument commits);\r\n-\r\n-\r\n-\r\n-    void on_issue_doubleClicked(const QModelIndex &index);\r\n     void on_issue_itemDoubleClicked(QListWidgetItem *item);\r\n \r\n private:\r"
+    },
+    {
+      "sha": "ac4078e2af324012e7f1dfbe8831276e6658d1fb",
+      "filename": "CSCI334/showcommit.cpp",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "changes": 6,
+      "blob_url": "https://github.com/mreidss/CSCI334/blob/9d5a5ac90aa6c1cd015460006302f6fc860d04be/CSCI334/showcommit.cpp",
+      "raw_url": "https://github.com/mreidss/CSCI334/raw/9d5a5ac90aa6c1cd015460006302f6fc860d04be/CSCI334/showcommit.cpp",
+      "contents_url": "https://api.github.com/repos/mreidss/CSCI334/contents/CSCI334/showcommit.cpp?ref=9d5a5ac90aa6c1cd015460006302f6fc860d04be",
+      "patch": "@@ -15,7 +15,7 @@ ShowCommit::~ShowCommit()\n \r\n void ShowCommit::on_Back_clicked()\r\n {\r\n-    ViewIssue *Back = new ViewIssue(this);\r\n-    this ->hide();\r\n-    Back ->show();\r\n+    //ViewIssue *Back = new ViewIssue(this);\r\n+    //this ->hide();\r\n+    //Back ->show();\r\n }\r"
+    },
+    {
+      "sha": "7cb03eb0bcab08dc0e127646221917591aa567d2",
+      "filename": "CSCI334/viewissue.cpp",
+      "status": "modified",
+      "additions": 54,
+      "deletions": 1,
+      "changes": 55,
+      "blob_url": "https://github.com/mreidss/CSCI334/blob/9d5a5ac90aa6c1cd015460006302f6fc860d04be/CSCI334/viewissue.cpp",
+      "raw_url": "https://github.com/mreidss/CSCI334/raw/9d5a5ac90aa6c1cd015460006302f6fc860d04be/CSCI334/viewissue.cpp",
+      "contents_url": "https://api.github.com/repos/mreidss/CSCI334/contents/CSCI334/viewissue.cpp?ref=9d5a5ac90aa6c1cd015460006302f6fc860d04be",
+      "patch": "@@ -3,11 +3,61 @@\n #include \"hhomepage.h\"\r\n #include \"showcommit.h\"\r\n \r\n-ViewIssue::ViewIssue(QWidget *parent) :\r\n+#include <QInputDialog>\r\n+#include <QProcess>\r\n+#include <QFile>\r\n+#include <QTextStream>\r\n+#include <QDebug>\r\n+#include <QByteArray>\r\n+#include <QJsonArray>\r\n+\r\n+#include <QJsonDocument>\r\n+#include <QJsonObject>\r\n+#include <QJsonParseError>\r\n+\r\n+ViewIssue::ViewIssue(QWidget *parent, QString issueID, QString JiraFileName) :\r\n     QDialog(parent),\r\n     ui(new Ui::ViewIssue)\r\n {\r\n     ui->setupUi(this);\r\n+\r\n+    QFile jsonFile(JiraFileName);\r\n+    jsonFile.open(QFile::ReadOnly);\r\n+\r\n+    QJsonDocument Allissues = QJsonDocument().fromJson(jsonFile.readAll());\r\n+\r\n+    // Json array of the whole json doc\r\n+    QJsonObject JsonObject = Allissues.object();\r\n+    QJsonValue temp = JsonObject.value(\"issues\");\r\n+    QJsonArray issueArray = temp.toArray();\r\n+    QJsonValue value;\r\n+\r\n+    QJsonObject thisIssue;\r\n+\r\n+    for(int i = 0; i < 30; i++)\r\n+    {\r\n+        value = issueArray.first();\r\n+        QJsonObject master = value.toObject();\r\n+\r\n+        if(master[\"id\"].toString() == issueID)\r\n+        {\r\n+            thisIssue = master;\r\n+        }\r\n+\r\n+        issueArray.removeFirst();\r\n+    }\r\n+\r\n+    QString Username = thisIssue[\"fields\"].toObject()[\"creator\"].toObject()[\"displayName\"].toString();\r\n+    QString description = thisIssue[\"fields\"].toObject()[\"description\"].toString();\r\n+    QString type;\r\n+    QString id = thisIssue[\"id\"].toString();\r\n+    QString key = thisIssue[\"key\"].toString();\r\n+\r\n+    ui->name->addItem(Username);\r\n+    ui->description->addItem(description);\r\n+    //ui->type->addItem(type);\r\n+    ui->id->addItem(id);\r\n+    ui->key->addItem(key);\r\n }\r\n \r\n ViewIssue::~ViewIssue()\r\n@@ -20,6 +70,9 @@ void ViewIssue::on_Back_clicked()\n     Hhomepage *BA = new Hhomepage(this);\r\n     this->hide();\r\n     BA->show();\r\n+\r\n+    BA->addCommitsToList();\r\n+    BA->addIssuesToList();\r\n }\r\n \r\n void ViewIssue::on_Show_clicked()\r"
+    },
+    {
+      "sha": "6bf2291ea8e2549b41b8f5b5b6e5437a837b618c",
+      "filename": "CSCI334/viewissue.h",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/mreidss/CSCI334/blob/9d5a5ac90aa6c1cd015460006302f6fc860d04be/CSCI334/viewissue.h",
+      "raw_url": "https://github.com/mreidss/CSCI334/raw/9d5a5ac90aa6c1cd015460006302f6fc860d04be/CSCI334/viewissue.h",
+      "contents_url": "https://api.github.com/repos/mreidss/CSCI334/contents/CSCI334/viewissue.h?ref=9d5a5ac90aa6c1cd015460006302f6fc860d04be",
+      "patch": "@@ -12,7 +12,7 @@ class ViewIssue : public QDialog\n     Q_OBJECT\r\n \r\n public:\r\n-    explicit ViewIssue(QWidget *parent = 0);\r\n+    explicit ViewIssue(QWidget *parent, QString issueID, QString JiraFileName);\r\n     ~ViewIssue();\r\n \r\n private slots:\r"
+    },
+    {
+      "sha": "663869295b72541e538f951fcfd4fe04f44c229c",
+      "filename": "CSCI334/viewissue.ui",
+      "status": "modified",
+      "additions": 102,
+      "deletions": 74,
+      "changes": 176,
+      "blob_url": "https://github.com/mreidss/CSCI334/blob/9d5a5ac90aa6c1cd015460006302f6fc860d04be/CSCI334/viewissue.ui",
+      "raw_url": "https://github.com/mreidss/CSCI334/raw/9d5a5ac90aa6c1cd015460006302f6fc860d04be/CSCI334/viewissue.ui",
+      "contents_url": "https://api.github.com/repos/mreidss/CSCI334/contents/CSCI334/viewissue.ui?ref=9d5a5ac90aa6c1cd015460006302f6fc860d04be",
+      "patch": "@@ -6,8 +6,8 @@\n    <rect>\r\n     <x>0</x>\r\n     <y>0</y>\r\n-    <width>299</width>\r\n-    <height>283</height>\r\n+    <width>644</width>\r\n+    <height>334</height>\r\n    </rect>\r\n   </property>\r\n   <property name=\"windowTitle\">\r\n@@ -18,25 +18,28 @@\n     <rect>\r\n      <x>20</x>\r\n      <y>20</y>\r\n-     <width>91</width>\r\n+     <width>231</width>\r\n      <height>31</height>\r\n     </rect>\r\n    </property>\r\n+   <property name=\"font\">\r\n+    <font>\r\n+     <weight>75</weight>\r\n+     <bold>true</bold>\r\n+     <underline>true</underline>\r\n+    </font>\r\n+   </property>\r\n+   <property name=\"autoFillBackground\">\r\n+    <bool>true</bool>\r\n+   </property>\r\n    <property name=\"text\">\r\n     <string>View Issue</string>\r\n    </property>\r\n-  </widget>\r\n-  <widget class=\"QListWidget\" name=\"listWidget\">\r\n-   <property name=\"geometry\">\r\n-    <rect>\r\n-     <x>90</x>\r\n-     <y>60</y>\r\n-     <width>191</width>\r\n-     <height>21</height>\r\n-    </rect>\r\n+   <property name=\"indent\">\r\n+    <number>20</number>\r\n    </property>\r\n   </widget>\r\n-  <widget class=\"QListWidget\" name=\"listWidget_2\">\r\n+  <widget class=\"QListWidget\" name=\"name\">\r\n    <property name=\"geometry\">\r\n     <rect>\r\n      <x>90</x>\r\n@@ -46,109 +49,134 @@\n     </rect>\r\n    </property>\r\n   </widget>\r\n-  <widget class=\"QListWidget\" name=\"listWidget_3\">\r\n+  <widget class=\"QListWidget\" name=\"description\">\r\n    <property name=\"geometry\">\r\n     <rect>\r\n      <x>90</x>\r\n      <y>120</y>\r\n-     <width>191</width>\r\n-     <height>21</height>\r\n+     <width>531</width>\r\n+     <height>41</height>\r\n     </rect>\r\n    </property>\r\n+   <property name=\"verticalScrollBarPolicy\">\r\n+    <enum>Qt::ScrollBarAlwaysOn</enum>\r\n+   </property>\r\n+   <property name=\"horizontalScrollBarPolicy\">\r\n+    <enum>Qt::ScrollBarAlwaysOff</enum>\r\n+   </property>\r\n+   <property name=\"isWrapping\" stdset=\"0\">\r\n+    <bool>false</bool>\r\n+   </property>\r\n+   <property name=\"wordWrap\">\r\n+    <bool>true</bool>\r\n+   </property>\r\n   </widget>\r\n-  <widget class=\"QListWidget\" name=\"listWidget_4\">\r\n+  <widget class=\"QListWidget\" name=\"id\">\r\n    <property name=\"geometry\">\r\n     <rect>\r\n-     <x>90</x>\r\n-     <y>150</y>\r\n-     <width>191</width>\r\n+     <x>420</x>\r\n+     <y>90</y>\r\n+     <width>201</width>\r\n      <height>21</height>\r\n     </rect>\r\n    </property>\r\n   </widget>\r\n-  <widget class=\"QListWidget\" name=\"listWidget_5\">\r\n+  <widget class=\"QListWidget\" name=\"key\">\r\n    <property name=\"geometry\">\r\n     <rect>\r\n      <x>90</x>\r\n-     <y>180</y>\r\n-     <width>191</width>\r\n+     <y>280</y>\r\n+     <width>201</width>\r\n      <height>21</height>\r\n     </rect>\r\n    </property>\r\n   </widget>\r\n-  <widget class=\"QWidget\" name=\"\">\r\n+  <widget class=\"QWidget\" name=\"layoutWidget\">\r\n    <property name=\"geometry\">\r\n     <rect>\r\n-     <x>20</x>\r\n-     <y>61</y>\r\n-     <width>61</width>\r\n-     <height>141</height>\r\n+     <x>310</x>\r\n+     <y>270</y>\r\n+     <width>311</width>\r\n+     <height>51</height>\r\n     </rect>\r\n    </property>\r\n-   <layout class=\"QVBoxLayout\" name=\"verticalLayout\">\r\n-    <item>\r\n-     <widget class=\"QLabel\" name=\"label_2\">\r\n-      <property name=\"text\">\r\n-       <string>Issue name:</string>\r\n-      </property>\r\n-     </widget>\r\n-    </item>\r\n-    <item>\r\n-     <widget class=\"QLabel\" name=\"label_3\">\r\n-      <property name=\"text\">\r\n-       <string>Description:</string>\r\n-      </property>\r\n-     </widget>\r\n-    </item>\r\n-    <item>\r\n-     <widget class=\"QLabel\" name=\"label_4\">\r\n-      <property name=\"text\">\r\n-       <string>Type:</string>\r\n-      </property>\r\n-     </widget>\r\n-    </item>\r\n+   <layout class=\"QHBoxLayout\" name=\"horizontalLayout\">\r\n     <item>\r\n-     <widget class=\"QLabel\" name=\"label_5\">\r\n+     <widget class=\"QPushButton\" name=\"Show\">\r\n       <property name=\"text\">\r\n-       <string>Status:</string>\r\n+       <string>ShowCommits</string>\r\n       </property>\r\n      </widget>\r\n     </item>\r\n     <item>\r\n-     <widget class=\"QLabel\" name=\"label_6\">\r\n+     <widget class=\"QPushButton\" name=\"Back\">\r\n       <property name=\"text\">\r\n-       <string>Resolution:</string>\r\n+       <string>Back</string>\r\n       </property>\r\n      </widget>\r\n     </item>\r\n    </layout>\r\n   </widget>\r\n-  <widget class=\"QWidget\" name=\"\">\r\n+  <widget class=\"QLabel\" name=\"label_2\">\r\n    <property name=\"geometry\">\r\n     <rect>\r\n      <x>20</x>\r\n-     <y>230</y>\r\n-     <width>261</width>\r\n-     <height>25</height>\r\n+     <y>90</y>\r\n+     <width>55</width>\r\n+     <height>16</height>\r\n     </rect>\r\n    </property>\r\n-   <layout class=\"QHBoxLayout\" name=\"horizontalLayout\">\r\n-    <item>\r\n-     <widget class=\"QPushButton\" name=\"Show\">\r\n-      <property name=\"text\">\r\n-       <string>ShowCommits</string>\r\n-      </property>\r\n-     </widget>\r\n-    </item>\r\n-    <item>\r\n-     <widget class=\"QPushButton\" name=\"Back\">\r\n-      <property name=\"text\">\r\n-       <string>Back</string>\r\n-      </property>\r\n-     </widget>\r\n-    </item>\r\n-   </layout>\r\n+   <property name=\"text\">\r\n+    <string>User name:</string>\r\n+   </property>\r\n+  </widget>\r\n+  <widget class=\"QLabel\" name=\"label_5\">\r\n+   <property name=\"geometry\">\r\n+    <rect>\r\n+     <x>390</x>\r\n+     <y>90</y>\r\n+     <width>16</width>\r\n+     <height>16</height>\r\n+    </rect>\r\n+   </property>\r\n+   <property name=\"text\">\r\n+    <string>ID:</string>\r\n+   </property>\r\n+  </widget>\r\n+  <widget class=\"QLabel\" name=\"label_3\">\r\n+   <property name=\"geometry\">\r\n+    <rect>\r\n+     <x>21</x>\r\n+     <y>151</y>\r\n+     <width>57</width>\r\n+     <height>16</height>\r\n+    </rect>\r\n+   </property>\r\n+   <property name=\"text\">\r\n+    <string>Description:</string>\r\n+   </property>\r\n+  </widget>\r\n+  <widget class=\"QLabel\" name=\"label_6\">\r\n+   <property name=\"geometry\">\r\n+    <rect>\r\n+     <x>40</x>\r\n+     <y>280</y>\r\n+     <width>21</width>\r\n+     <height>16</height>\r\n+    </rect>\r\n+   </property>\r\n+   <property name=\"text\">\r\n+    <string>key:</string>\r\n+   </property>\r\n   </widget>\r\n+  <zorder>label</zorder>\r\n+  <zorder>name</zorder>\r\n+  <zorder>description</zorder>\r\n+  <zorder>id</zorder>\r\n+  <zorder>key</zorder>\r\n+  <zorder>layoutWidget</zorder>\r\n+  <zorder>layoutWidget</zorder>\r\n+  <zorder>Back</zorder>\r\n  </widget>\r\n  <resources/>\r\n  <connections/>\r"
+    }
+  ]
+}

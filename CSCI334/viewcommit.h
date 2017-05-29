@@ -12,8 +12,11 @@ class viewCommit : public QDialog
     Q_OBJECT
 
 public:
-    explicit viewCommit(QWidget *parent);
+    explicit viewCommit(QWidget *parent, QString url);
     ~viewCommit();
+
+    void printCommitInfo();
+    QJsonDocument loadFile(QString fileName);
 
 private slots:
     void on_Back_clicked();

@@ -1,5 +1,145 @@
 [
   {
+    "sha": "7f9536a601c2bc8da72473fa42f5405bd98130db",
+    "commit": {
+      "author": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-05-29T02:58:05Z"
+      },
+      "committer": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-05-29T02:58:05Z"
+      },
+      "message": "test to print commits in our project",
+      "tree": {
+        "sha": "138856a7d45faa26843cd58edc32d40c1f3e5ce3",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/git/trees/138856a7d45faa26843cd58edc32d40c1f3e5ce3"
+      },
+      "url": "https://api.github.com/repos/mreidss/CSCI334/git/commits/7f9536a601c2bc8da72473fa42f5405bd98130db",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mreidss/CSCI334/commits/7f9536a601c2bc8da72473fa42f5405bd98130db",
+    "html_url": "https://github.com/mreidss/CSCI334/commit/7f9536a601c2bc8da72473fa42f5405bd98130db",
+    "comments_url": "https://api.github.com/repos/mreidss/CSCI334/commits/7f9536a601c2bc8da72473fa42f5405bd98130db/comments",
+    "author": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0da6e238eb86d2c597931fe53fbe7df4b57b03a0",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/commits/0da6e238eb86d2c597931fe53fbe7df4b57b03a0",
+        "html_url": "https://github.com/mreidss/CSCI334/commit/0da6e238eb86d2c597931fe53fbe7df4b57b03a0"
+      }
+    ]
+  },
+  {
+    "sha": "0da6e238eb86d2c597931fe53fbe7df4b57b03a0",
+    "commit": {
+      "author": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-05-29T02:57:12Z"
+      },
+      "committer": {
+        "name": "mreidss",
+        "email": "mitchreidy@gmail.com",
+        "date": "2017-05-29T02:57:12Z"
+      },
+      "message": "ViewCommit Working",
+      "tree": {
+        "sha": "f89d014df6f173b49d34f40b355c77afcd16f2bc",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/git/trees/f89d014df6f173b49d34f40b355c77afcd16f2bc"
+      },
+      "url": "https://api.github.com/repos/mreidss/CSCI334/git/commits/0da6e238eb86d2c597931fe53fbe7df4b57b03a0",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mreidss/CSCI334/commits/0da6e238eb86d2c597931fe53fbe7df4b57b03a0",
+    "html_url": "https://github.com/mreidss/CSCI334/commit/0da6e238eb86d2c597931fe53fbe7df4b57b03a0",
+    "comments_url": "https://api.github.com/repos/mreidss/CSCI334/commits/0da6e238eb86d2c597931fe53fbe7df4b57b03a0/comments",
+    "author": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mreidss",
+      "id": 19317685,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19317685?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mreidss",
+      "html_url": "https://github.com/mreidss",
+      "followers_url": "https://api.github.com/users/mreidss/followers",
+      "following_url": "https://api.github.com/users/mreidss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mreidss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mreidss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mreidss/subscriptions",
+      "organizations_url": "https://api.github.com/users/mreidss/orgs",
+      "repos_url": "https://api.github.com/users/mreidss/repos",
+      "events_url": "https://api.github.com/users/mreidss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mreidss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "eea57697d90696b82d2092f0f0a6454dacc3fe89",
+        "url": "https://api.github.com/repos/mreidss/CSCI334/commits/eea57697d90696b82d2092f0f0a6454dacc3fe89",
+        "html_url": "https://github.com/mreidss/CSCI334/commit/eea57697d90696b82d2092f0f0a6454dacc3fe89"
+      }
+    ]
+  },
+  {
     "sha": "eea57697d90696b82d2092f0f0a6454dacc3fe89",
     "commit": {
       "author": {

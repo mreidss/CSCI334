@@ -150,10 +150,11 @@ void Hhomepage::addCommitsToList()
     QJsonValue value;
 
     // Holds commit information
-    QString html_url[30];
-    QString message[30];
-    QString name[30];
-    QString dateCommited[30];
+    QString html_url;
+    QString message;
+    QString name;
+    QString dateCommited;
+    QString commitFilesURL;
 
     if(!JsonArray.isEmpty())
     {
@@ -163,15 +164,17 @@ void Hhomepage::addCommitsToList()
             QJsonObject master = value.toObject();
 
             // Retrieves info of 1 commit
-            html_url[i] = master["html_url"].toString();
-            message[i] = master["commit"].toObject()["message"].toString();
-            name[i] = master["commit"].toObject()["author"].toObject()["name"].toString();
-            dateCommited[i] = master["commit"].toObject()["author"].toObject()["date"].toString();
+            html_url = master["html_url"].toString();
+            message = master["commit"].toObject()["message"].toString();
+            name = master["commit"].toObject()["author"].toObject()["name"].toString();
+            dateCommited = master["commit"].toObject()["author"].toObject()["date"].toString();
+            commitFilesURL = master["url"].toString();
 
-            ui->code->addItem("Name: " + name[i] + "\n" +
-                              "Message: " + message[i] + "\n" +
-                              "Date Commited: " + dateCommited[i] + "\n" +
-                              "Url: " + html_url[i]
+            ui->code->addItem(commitFilesURL + "\n" +
+                              "Name: " + name + "\n" +
+                              "Message: " + message + "\n" +
+                              "Date Commited: " + dateCommited + "\n" +
+                              "Url: " + html_url
                               );
             ui->code->addItem("--------------------------------------------------------------------------------------------");
 
@@ -224,9 +227,9 @@ void Hhomepage::on_issue_itemDoubleClicked(QListWidgetItem *item)
 void Hhomepage::on_code_itemDoubleClicked(QListWidgetItem *item)
 {
     QString temp = item->text();
-    QString id = temp.mid(3,8);
+    QString url = temp.split("\n").first();
 
-    viewCommit *VC = new viewCommit(this);
+    viewCommit *VC = new viewCommit(this, url);
     this->hide();
     VC->show();
 }
