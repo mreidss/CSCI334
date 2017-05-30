@@ -1,0 +1,72 @@
+[
+  {
+    "sha": "4beff97678d436880f215375333e8285a08bd454",
+    "commit": {
+      "author": {
+        "name": "William D C M SILVA",
+        "email": "colen@apache.org",
+        "date": "2017-05-29T15:33:52Z"
+      },
+      "committer": {
+        "name": "William D C M SILVA",
+        "email": "colen@apache.org",
+        "date": "2017-05-29T15:33:52Z"
+      },
+      "message": "OPENNLP-1082: ConlluSentenceSampleStream add EOS to samples if missing",
+      "tree": {
+        "sha": "84061f54470bd0f6f5e91160082b7565a12d2fca",
+        "url": "https://api.github.com/repos/apache/opennlp/git/trees/84061f54470bd0f6f5e91160082b7565a12d2fca"
+      },
+      "url": "https://api.github.com/repos/apache/opennlp/git/commits/4beff97678d436880f215375333e8285a08bd454",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/apache/opennlp/commits/4beff97678d436880f215375333e8285a08bd454",
+    "html_url": "https://github.com/apache/opennlp/commit/4beff97678d436880f215375333e8285a08bd454",
+    "comments_url": "https://api.github.com/repos/apache/opennlp/commits/4beff97678d436880f215375333e8285a08bd454/comments",
+    "author": {
+      "login": "wcolen",
+      "id": 1018529,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1018529?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wcolen",
+      "html_url": "https://github.com/wcolen",
+      "followers_url": "https://api.github.com/users/wcolen/followers",
+      "following_url": "https://api.github.com/users/wcolen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wcolen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wcolen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wcolen/subscriptions",
+      "organizations_url": "https://api.github.com/users/wcolen/orgs",
+      "repos_url": "https://api.github.com/users/wcolen/repos",
+      "events_url": "https://api.github.com/users/wcolen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wcolen/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wcolen",
+      "id": 1018529,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1018529?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wcolen",
+      "html_url": "https://github.com/wcolen",
+      "followers_url": "https://api.github.com/users/wcolen/followers",
+      "following_url": "https://api.github.com/users/wcolen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wcolen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wcolen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wcolen/subscriptions",
+      "organizations_url": "https://api.github.com/users/wcolen/orgs",
+      "repos_url": "https://api.github.com/users/wcolen/repos",
+      "events_url": "https://api.github.com/users/wcolen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wcolen/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f418eed3089d74caa11affaf947a40b774e9c8cb",
+        "url": "https://api.github.com/repos/apache/opennlp/commits/f418eed3089d74caa11affaf947a40b774e9c8cb",
+        "html_url": "https://github.com/apache/opennlp/commit/f418eed3089d74caa11affaf947a40b774e9c8cb"
+      }
+    ]
+  }
+]

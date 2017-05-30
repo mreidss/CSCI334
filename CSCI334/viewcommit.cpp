@@ -22,9 +22,11 @@ viewCommit::viewCommit(QWidget *parent, QString url) :
 
     QString curl = "curl " + url;
 
+    qDebug() << curl;
+
     // Runs Curl Command and outputs it into a JSON file
     QProcess process;
-    process.setStandardOutputFile("commit.jira");
+    process.setStandardOutputFile("commit.json");
     process.start(curl);
     process.waitForFinished(); // will wait forever until finished
 
@@ -48,38 +50,39 @@ void viewCommit::on_Back_clicked()
 
 void viewCommit::printCommitInfo()
 {
-    QJsonDocument fullFile = loadFile("commit.jira");
+    QJsonDocument fullFile = loadFile("commit.json");
 
     QJsonObject master = fullFile.object();
 
-    // User Name
+    // Commit Basic Info
     QString usrName = master["commit"].toObject()["author"].toObject()["name"].toString();
-    qDebug() << "name: " << usrName;
-
-    // html url
     QString htmlUrl = master["html_url"].toString();
-
-    // Message and description
     QString message  = master["commit"].toObject()["message"].toString();
+    QString date = master["commit"].toObject()["author"].toObject()["date"].toString();
 
     ui->name->addItem(usrName);
-    ui->url->addItem(htmlUrl);
+    ui->url->insert(htmlUrl);
     ui->message->addItem(message);
+    ui->date->addItem(date);
 
-
-
-
+    // All records of changes
     QJsonValue files = master.value("files");
     QJsonArray tempFiles = files.toArray();
 
+    int numFilesChanged = tempFiles.size();
 
-    // Will be in for loop for many file changes
-    QJsonValue tempFiles2 = tempFiles.first();
-    QJsonObject filesChanged = tempFiles2.toObject();
+    for(int i = 0; i < numFilesChanged; i++)
+    {
+        QJsonValue tempFiles2 = tempFiles.first();
+        QJsonObject filesChanged = tempFiles2.toObject();
 
-    QString test = filesChanged["patch"].toString();
+        QString fileName = filesChanged["filename"].toString();
+        QString changes = filesChanged["patch"].toString();
 
-    ui->changes->addItem(test);
+        ui->changes->addItem("Filename: " + fileName + "\n\n" + changes);
+
+        tempFiles.removeFirst();
+    }
 }\
 
 QJsonDocument viewCommit::loadFile(QString fileName)

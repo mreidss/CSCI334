@@ -20,6 +20,10 @@ private slots:
 
     void on_Cancel_clicked();
 
+    void on_searchIssueID_clicked();
+
+    void on_searchcommitID_clicked();
+
 private:
     Ui::Search *ui;
 };

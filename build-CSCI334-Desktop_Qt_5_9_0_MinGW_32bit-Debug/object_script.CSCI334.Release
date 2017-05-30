@@ -6,8 +6,6 @@ INPUT(
 ./release\search.o
 ./release\viewissue.o
 ./release\showcommit.o
-./release\searchcommit.o
-./release\searchjira.o
 ./release\viewcommit.o
 ./release\moc_log_in.o
 ./release\moc_register.o
@@ -15,7 +13,5 @@ INPUT(
 ./release\moc_search.o
 ./release\moc_viewissue.o
 ./release\moc_showcommit.o
-./release\moc_searchcommit.o
-./release\moc_searchjira.o
 ./release\moc_viewcommit.o
 );

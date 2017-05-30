@@ -19,8 +19,6 @@ SOURCES += main.cpp\
     search.cpp \
     viewissue.cpp \
     showcommit.cpp \
-    searchcommit.cpp \
-    searchjira.cpp \
     viewcommit.cpp
 
 HEADERS  += log_in.h \
@@ -29,8 +27,6 @@ HEADERS  += log_in.h \
     search.h \
     viewissue.h \
     showcommit.h \
-    searchcommit.h \
-    searchjira.h \
     viewcommit.h
 
 FORMS    += log_in.ui \
@@ -39,6 +35,4 @@ FORMS    += log_in.ui \
     search.ui \
     viewissue.ui \
     showcommit.ui \
-    searchcommit.ui \
-    searchjira.ui \
     viewcommit.ui

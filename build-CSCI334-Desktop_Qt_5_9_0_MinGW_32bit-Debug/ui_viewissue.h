@@ -39,12 +39,14 @@ public:
     QLabel *label_5;
     QLabel *label_3;
     QLabel *label_6;
+    QLabel *label_4;
+    QListWidget *summary;
 
     void setupUi(QDialog *ViewIssue)
     {
         if (ViewIssue->objectName().isEmpty())
             ViewIssue->setObjectName(QStringLiteral("ViewIssue"));
-        ViewIssue->resize(644, 334);
+        ViewIssue->resize(649, 366);
         label = new QLabel(ViewIssue);
         label->setObjectName(QStringLiteral("label"));
         label->setGeometry(QRect(20, 20, 231, 51));
@@ -61,7 +63,7 @@ public:
         name->setGeometry(QRect(90, 90, 191, 21));
         description = new QListWidget(ViewIssue);
         description->setObjectName(QStringLiteral("description"));
-        description->setGeometry(QRect(90, 120, 531, 141));
+        description->setGeometry(QRect(90, 150, 531, 141));
         description->setVerticalScrollBarPolicy(Qt::ScrollBarAsNeeded);
         description->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
         description->setProperty("isWrapping", QVariant(false));
@@ -71,10 +73,10 @@ public:
         id->setGeometry(QRect(310, 90, 311, 21));
         key = new QListWidget(ViewIssue);
         key->setObjectName(QStringLiteral("key"));
-        key->setGeometry(QRect(90, 280, 201, 21));
+        key->setGeometry(QRect(90, 310, 201, 21));
         layoutWidget = new QWidget(ViewIssue);
         layoutWidget->setObjectName(QStringLiteral("layoutWidget"));
-        layoutWidget->setGeometry(QRect(310, 270, 311, 51));
+        layoutWidget->setGeometry(QRect(310, 300, 311, 51));
         horizontalLayout = new QHBoxLayout(layoutWidget);
         horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
@@ -96,10 +98,16 @@ public:
         label_5->setGeometry(QRect(290, 90, 16, 16));
         label_3 = new QLabel(ViewIssue);
         label_3->setObjectName(QStringLiteral("label_3"));
-        label_3->setGeometry(QRect(20, 120, 57, 16));
+        label_3->setGeometry(QRect(20, 150, 57, 16));
         label_6 = new QLabel(ViewIssue);
         label_6->setObjectName(QStringLiteral("label_6"));
-        label_6->setGeometry(QRect(40, 280, 21, 16));
+        label_6->setGeometry(QRect(40, 310, 21, 16));
+        label_4 = new QLabel(ViewIssue);
+        label_4->setObjectName(QStringLiteral("label_4"));
+        label_4->setGeometry(QRect(20, 120, 47, 13));
+        summary = new QListWidget(ViewIssue);
+        summary->setObjectName(QStringLiteral("summary"));
+        summary->setGeometry(QRect(90, 120, 531, 21));
         label_2->raise();
         label_5->raise();
         label_3->raise();
@@ -110,6 +118,8 @@ public:
         id->raise();
         key->raise();
         layoutWidget->raise();
+        label_4->raise();
+        summary->raise();
 
         retranslateUi(ViewIssue);
 
@@ -126,6 +136,7 @@ public:
         label_5->setText(QApplication::translate("ViewIssue", "ID:", Q_NULLPTR));
         label_3->setText(QApplication::translate("ViewIssue", "Description:", Q_NULLPTR));
         label_6->setText(QApplication::translate("ViewIssue", "key:", Q_NULLPTR));
+        label_4->setText(QApplication::translate("ViewIssue", "Summary:", Q_NULLPTR));
     } // retranslateUi
 
 };

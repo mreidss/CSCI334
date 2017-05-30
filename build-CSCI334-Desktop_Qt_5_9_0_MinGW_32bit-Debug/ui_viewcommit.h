@@ -16,6 +16,7 @@
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
+#include <QtWidgets/QLineEdit>
 #include <QtWidgets/QListWidget>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QWidget>
@@ -31,19 +32,20 @@ public:
     QLabel *label_4;
     QLabel *label_5;
     QListWidget *name;
-    QListWidget *url;
     QListWidget *message;
     QListWidget *changes;
     QWidget *layoutWidget;
     QHBoxLayout *horizontalLayout;
-    QPushButton *Show;
     QPushButton *Back;
+    QLineEdit *url;
+    QLabel *label_6;
+    QListWidget *date;
 
     void setupUi(QWidget *viewCommit)
     {
         if (viewCommit->objectName().isEmpty())
             viewCommit->setObjectName(QStringLiteral("viewCommit"));
-        viewCommit->resize(657, 622);
+        viewCommit->resize(871, 679);
         label = new QLabel(viewCommit);
         label->setObjectName(QStringLiteral("label"));
         label->setGeometry(QRect(20, 20, 121, 41));
@@ -71,31 +73,32 @@ public:
         name = new QListWidget(viewCommit);
         name->setObjectName(QStringLiteral("name"));
         name->setGeometry(QRect(100, 80, 131, 21));
-        url = new QListWidget(viewCommit);
-        url->setObjectName(QStringLiteral("url"));
-        url->setGeometry(QRect(270, 60, 341, 41));
         message = new QListWidget(viewCommit);
         message->setObjectName(QStringLiteral("message"));
-        message->setGeometry(QRect(100, 110, 521, 131));
+        message->setGeometry(QRect(100, 110, 751, 131));
         changes = new QListWidget(viewCommit);
         changes->setObjectName(QStringLiteral("changes"));
-        changes->setGeometry(QRect(100, 250, 521, 301));
+        changes->setGeometry(QRect(100, 250, 751, 371));
         layoutWidget = new QWidget(viewCommit);
         layoutWidget->setObjectName(QStringLiteral("layoutWidget"));
-        layoutWidget->setGeometry(QRect(320, 550, 311, 51));
+        layoutWidget->setGeometry(QRect(700, 620, 151, 51));
         horizontalLayout = new QHBoxLayout(layoutWidget);
         horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
-        Show = new QPushButton(layoutWidget);
-        Show->setObjectName(QStringLiteral("Show"));
-
-        horizontalLayout->addWidget(Show);
-
         Back = new QPushButton(layoutWidget);
         Back->setObjectName(QStringLiteral("Back"));
 
         horizontalLayout->addWidget(Back);
 
+        url = new QLineEdit(viewCommit);
+        url->setObjectName(QStringLiteral("url"));
+        url->setGeometry(QRect(270, 80, 351, 20));
+        label_6 = new QLabel(viewCommit);
+        label_6->setObjectName(QStringLiteral("label_6"));
+        label_6->setGeometry(QRect(630, 80, 81, 16));
+        date = new QListWidget(viewCommit);
+        date->setObjectName(QStringLiteral("date"));
+        date->setGeometry(QRect(710, 80, 141, 21));
 
         retranslateUi(viewCommit);
 
@@ -110,8 +113,9 @@ public:
         label_3->setText(QApplication::translate("viewCommit", "Message:", Q_NULLPTR));
         label_4->setText(QApplication::translate("viewCommit", "URL:", Q_NULLPTR));
         label_5->setText(QApplication::translate("viewCommit", "Changes:", Q_NULLPTR));
-        Show->setText(QApplication::translate("viewCommit", "ShowCommits", Q_NULLPTR));
         Back->setText(QApplication::translate("viewCommit", "Back", Q_NULLPTR));
+        url->setText(QString());
+        label_6->setText(QApplication::translate("viewCommit", "date committed:", Q_NULLPTR));
     } // retranslateUi
 
 };

@@ -44,6 +44,8 @@ private slots:
 
     void on_code_itemDoubleClicked(QListWidgetItem *item);
 
+    void on_radioButton_clicked();
+
 private:
     Ui::Hhomepage *ui;
 };

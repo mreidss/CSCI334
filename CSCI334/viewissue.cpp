@@ -15,7 +15,7 @@
 #include <QJsonObject>
 #include <QJsonParseError>
 
-QString id;
+QString key;
 QString File;
 
 ViewIssue::ViewIssue(QWidget *parent, QString issueID, QString JiraFileName) :
@@ -24,7 +24,7 @@ ViewIssue::ViewIssue(QWidget *parent, QString issueID, QString JiraFileName) :
 {
     ui->setupUi(this);
 
-    id = issueID;
+    key = issueID;
     File = JiraFileName;
 
     QFile jsonFile(JiraFileName);
@@ -45,7 +45,7 @@ ViewIssue::ViewIssue(QWidget *parent, QString issueID, QString JiraFileName) :
         value = issueArray.first();
         QJsonObject master = value.toObject();
 
-        if(master["id"].toString() == issueID)
+        if(master["key"].toString() == key)
         {
             thisIssue = master;
         }
@@ -55,13 +55,13 @@ ViewIssue::ViewIssue(QWidget *parent, QString issueID, QString JiraFileName) :
 
     QString Username = thisIssue["fields"].toObject()["creator"].toObject()["displayName"].toString();
     QString description = thisIssue["fields"].toObject()["description"].toString();
-    QString type;
+    QString summary = thisIssue["fields"].toObject()["summary"].toString();
     QString id = thisIssue["id"].toString();
     QString key = thisIssue["key"].toString();
 
     ui->name->addItem(Username);
     ui->description->addItem(description);
-    //ui->type->addItem(type);
+    ui->summary->addItem(summary);
     ui->id->addItem(id);
     ui->key->addItem(key);
 }
@@ -83,7 +83,7 @@ void ViewIssue::on_Back_clicked()
 
 void ViewIssue::on_Show_clicked()
 {
-    ShowCommit *S = new ShowCommit(this, id, File);
+    ShowCommit *S = new ShowCommit(this, key, File);
     this->hide();
     S->show();
 }

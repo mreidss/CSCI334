@@ -6,8 +6,6 @@ INPUT(
 ./debug\search.o
 ./debug\viewissue.o
 ./debug\showcommit.o
-./debug\searchcommit.o
-./debug\searchjira.o
 ./debug\viewcommit.o
 ./debug\moc_log_in.o
 ./debug\moc_register.o
@@ -15,7 +13,5 @@ INPUT(
 ./debug\moc_search.o
 ./debug\moc_viewissue.o
 ./debug\moc_showcommit.o
-./debug\moc_searchcommit.o
-./debug\moc_searchjira.o
 ./debug\moc_viewcommit.o
 );

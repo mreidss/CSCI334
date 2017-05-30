@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>657</width>
-    <height>622</height>
+    <width>871</width>
+    <height>679</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -105,22 +105,12 @@
     </rect>
    </property>
   </widget>
-  <widget class="QListWidget" name="url">
-   <property name="geometry">
-    <rect>
-     <x>270</x>
-     <y>60</y>
-     <width>341</width>
-     <height>41</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QListWidget" name="message">
    <property name="geometry">
     <rect>
      <x>100</x>
      <y>110</y>
-     <width>521</width>
+     <width>751</width>
      <height>131</height>
     </rect>
    </property>
@@ -130,28 +120,21 @@
     <rect>
      <x>100</x>
      <y>250</y>
-     <width>521</width>
-     <height>301</height>
+     <width>751</width>
+     <height>371</height>
     </rect>
    </property>
   </widget>
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>320</x>
-     <y>550</y>
-     <width>311</width>
+     <x>700</x>
+     <y>620</y>
+     <width>151</width>
      <height>51</height>
     </rect>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
-    <item>
-     <widget class="QPushButton" name="Show">
-      <property name="text">
-       <string>ShowCommits</string>
-      </property>
-     </widget>
-    </item>
     <item>
      <widget class="QPushButton" name="Back">
       <property name="text">
@@ -160,6 +143,42 @@
      </widget>
     </item>
    </layout>
+  </widget>
+  <widget class="QLineEdit" name="url">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>80</y>
+     <width>351</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>80</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>date committed:</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="date">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>80</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
   </widget>
  </widget>
  <resources/>

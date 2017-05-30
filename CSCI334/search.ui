@@ -6,14 +6,14 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>392</width>
+    <width>412</width>
     <height>148</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QLineEdit" name="lineEdit_3">
+  <widget class="QLineEdit" name="issueKey">
    <property name="geometry">
     <rect>
      <x>100</x>
@@ -33,7 +33,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Issue ID</string>
+    <string>Issue Key</string>
    </property>
   </widget>
   <widget class="QPushButton" name="searchIssueID">
@@ -41,28 +41,28 @@
     <rect>
      <x>300</x>
      <y>20</y>
-     <width>75</width>
+     <width>101</width>
      <height>23</height>
     </rect>
    </property>
    <property name="text">
-    <string>Search</string>
+    <string>Search Issues</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>20</x>
+     <x>10</x>
      <y>60</y>
-     <width>51</width>
+     <width>81</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>Commit ID</string>
+    <string>Commit ID/ sha</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_4">
+  <widget class="QLineEdit" name="commitSha">
    <property name="geometry">
     <rect>
      <x>100</x>
@@ -77,12 +77,12 @@
     <rect>
      <x>300</x>
      <y>60</y>
-     <width>75</width>
+     <width>101</width>
      <height>23</height>
     </rect>
    </property>
    <property name="text">
-    <string>Search</string>
+    <string>Search Commits</string>
    </property>
   </widget>
   <widget class="QPushButton" name="Cancel">
@@ -90,7 +90,7 @@
     <rect>
      <x>300</x>
      <y>100</y>
-     <width>75</width>
+     <width>101</width>
      <height>23</height>
     </rect>
    </property>

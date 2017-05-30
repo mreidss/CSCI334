@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>980</width>
-    <height>600</height>
+    <height>616</height>
    </rect>
   </property>
   <property name="acceptDrops">
@@ -19,8 +19,8 @@
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>1</x>
-     <y>30</y>
+     <x>0</x>
+     <y>50</y>
      <width>981</width>
      <height>561</height>
     </rect>
@@ -48,7 +48,7 @@
       <item>
        <widget class="QPushButton" name="search">
         <property name="text">
-         <string>search</string>
+         <string>search ID</string>
         </property>
        </widget>
       </item>
@@ -69,11 +69,17 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>10</y>
+     <x>0</x>
+     <y>30</y>
      <width>101</width>
      <height>16</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
    </property>
    <property name="text">
     <string>Jira Issues</string>
@@ -82,14 +88,71 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>570</x>
-     <y>10</y>
-     <width>81</width>
+     <x>560</x>
+     <y>30</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Github Commits</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>20</y>
+     <width>82</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Resolved?</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>20</y>
+     <width>181</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Key</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Username</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>20</y>
+     <width>61</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>Github Commits</string>
+    <string>sort Issues:</string>
    </property>
   </widget>
  </widget>

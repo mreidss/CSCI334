@@ -4,8 +4,6 @@
 #include "search.h"
 #include "viewissue.h"
 #include "viewcommit.h"
-#include "searchcommit.h"
-#include "searchjira.h"
 
 #include <QInputDialog>
 #include <QProcess>
@@ -26,6 +24,10 @@ Hhomepage::Hhomepage(QWidget *parent) :
     ui(new Ui::Hhomepage)
 {
     ui->setupUi(this);
+
+    //ui->comboBox->addItem("Key");
+    //ui->comboBox->addItem("Username");
+    //ui->comboBox->addItem("Date");
 }
 
 Hhomepage::~Hhomepage()
@@ -47,18 +49,10 @@ void Hhomepage::on_search_clicked()
     S ->show();
 }
 
-void Hhomepage::on_Vissue_clicked()
-{
-    //ViewIssue *V = new ViewIssue(this);
-    //this ->hide();
-    //V ->show();
-}
-
 void Hhomepage::on_commitButton_clicked()
 {
     QString link = QInputDialog::getText(this, "GitHub Website", "Input a Github Website:",
-                                         QLineEdit::Normal, "https://github.com/mreidss/CSCI334");
-
+                                         QLineEdit::Normal, "https://github.com/apache/OPENNLP");
 
     QString curlCommand = splitWebsiteGit(link);
     QString curl = "curl " + curlCommand;
@@ -94,6 +88,7 @@ void Hhomepage::on_issuebButton_clicked()
 
 void Hhomepage::addIssuesToList()
 {
+    ui->issue->clear();
     QJsonDocument Allissues = loadJson(JiraFileName);
 
     // Json array of the whole json doc
@@ -104,29 +99,27 @@ void Hhomepage::addIssuesToList()
     QJsonValue value;
 
     // Holds commit information
-    QString usrName[30];
-    //QString description[30];
-    QString id[30];
-    QString key[30];
-    //QString issueLinks[30];
+    QString usrName;
+    QString id;
+    QString key;
+    QString summary;
 
     if(!array.isEmpty())
     {
-        for(int i = 0; i < 30; i++)
+        for(int i = 0; i < array.size(); i++)
         {
             value = array.first();
             QJsonObject master = value.toObject();
 
-            //value = JsonArray.first();
-            usrName[i] = master["fields"].toObject()["creator"].toObject()["displayName"].toString();
-            //description[i] = master["fields"].toObject()["description"].toString();
-            //issueLinks[i] = master["fields"].toObject()["issueLinks"].toString();
-            id[i] = master["id"].toString();
-            key[i] = master["key"].toString();
+            usrName = master["fields"].toObject()["creator"].toObject()["displayName"].toString();
+            id = master["id"].toString();
+            key = master["key"].toString();
+            summary = master["fields"].toObject()["summary"].toString();
 
-            ui->issue->addItem("ID:" + id[i] + "\n" +
-                               "User Name: " + usrName[i] + "\n" +
-                               "Issue key: " + key[i]
+            ui->issue->addItem(key + "\n" +
+                               "ID:" + id + "\n" +
+                               "Summary: " + summary + "\n" +
+                               "User Name: " + usrName
                                );
             ui->issue->addItem("--------------------------------------------------------------------------------------------");
 
@@ -143,6 +136,7 @@ void Hhomepage::addIssuesToList()
 
 void Hhomepage::addCommitsToList()
 {
+    ui->code->clear();
     QJsonDocument Allcommits = loadJson(gitFileName);
 
     // Json array of the whole json doc
@@ -217,9 +211,9 @@ QJsonDocument Hhomepage::loadJson(QString fileName)
 void Hhomepage::on_issue_itemDoubleClicked(QListWidgetItem *item)
 {
     QString temp = item->text();
-    QString id = temp.mid(3,8);
+    QString key = temp.split("\n").first();
 
-    ViewIssue *V = new ViewIssue(this, id, JiraFileName);
+    ViewIssue *V = new ViewIssue(this, key, JiraFileName);
     this->hide();
     V->show();
 }
@@ -232,4 +226,9 @@ void Hhomepage::on_code_itemDoubleClicked(QListWidgetItem *item)
     viewCommit *VC = new viewCommit(this, url);
     this->hide();
     VC->show();
+}
+
+void Hhomepage::on_radioButton_clicked()
+{
+    ui->issue->clear();
 }

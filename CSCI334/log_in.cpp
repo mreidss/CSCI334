@@ -19,9 +19,6 @@ Log_in::Log_in(QWidget *parent) :
     else
         ui->lblresult->setText("Connected...");
 
-
-
-
 }
 
 Log_in::~Log_in()
